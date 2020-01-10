@@ -1,0 +1,24 @@
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author><name>@erpwtinf01.cchnl.hnl:6400</name></author>
+<id>tag:sap.com,2010:bip-rs/logon/long</id>
+<title type="text">Logon Result</title>
+<updated>2019-10-02T03:49:37.254Z</updated>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="logonToken" type="string">erpwtinf01.cchnl.hnl:6400@{3&amp;2=595798,U3&amp;2v=erpwtinf01.cchnl.hnl:6400,UP&amp;66=60,U3&amp;68=secEnterprise:maxwell.lee,UP&amp;S9=588532,U3&amp;qe=100,U3&amp;vz=MNAjfHoDnP.QctS33by.Lo0oEJ1DXpocSSOe7IZRfM4,UP}</attr>
+</attrs>
+</content>
+</entry>
+
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author><name>@erpwtinf01.cchnl.hnl:6400</name></author>
+<id>tag:sap.com,2010:bip-rs/logon/long</id>
+<title type="text">Logon Result</title>
+<updated>2019-10-02T03:54:07.521Z</updated>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="logonToken" type="string">erpwtinf01.cchnl.hnl:6400@{3&amp;2=595799,U3&amp;2v=erpwtinf01.cchnl.hnl:6400,UP&amp;66=60,U3&amp;68=secEnterprise:maxwell.lee,UP&amp;S9=588532,U3&amp;qe=100,U3&amp;vz=obWL4_47soXF_4VH29wyqcmpKzbCTdr_EITXNmbr1s4,UP}</attr>
+</attrs>
+</content>
+</entry>
+

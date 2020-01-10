@@ -1,0 +1,8 @@
+<variable qualification="Measure" dataType="Numeric">
+<id>L2</id>
+<name>Paid Principal Amount</name>
+<formulaLanguageId>[Paid Principal Amount]</formulaLanguageId>
+<definition>
+=If ((IsNull([Processed Date])) And ([Debt Sta Cd] <> 22) And ([Sched Dt] <= [Prompt As of Date])) Then [Sched Ln Prin Am Unpd] Else [Sched Ln Prin Am Pd]
+</definition>
+</variable>

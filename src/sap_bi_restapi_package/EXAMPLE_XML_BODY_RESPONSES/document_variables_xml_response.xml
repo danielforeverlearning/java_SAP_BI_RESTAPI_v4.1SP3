@@ -1,0 +1,114 @@
+<variables>
+<variable qualification="Dimension" dataType="String">
+<id>L1A</id>
+<name>Debt Class Total</name>
+</variable>
+<variable qualification="Dimension" dataType="Numeric">
+<id>L23</id>
+<name>Debt Instrument Total Principle</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L20</id>
+<name>Debt Type Section</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L22</id>
+<name>No Records Found</name>
+</variable>
+<variable qualification="Dimension" dataType="DateTime">
+<id>L1</id>
+<name>Prompt As of Date</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L28</id>
+<name>Prompt Bond Status</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L1F</id>
+<name>Prompt Cusip</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L1D</id>
+<name>Prompt Debt Instrument Status</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L1B</id>
+<name>Prompt Debt Type</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>LD</id>
+<name>Prompt End Date</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L25</id>
+<name>Prompt Mjr Type Debt</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L1E</id>
+<name>Prompt Sched Detail Type</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L1C</id>
+<name>Prompt Series</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>LC</id>
+<name>Prompt Start Date</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>LB</id>
+<name>Report Agency</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>L21</id>
+<name>Report Description</name>
+</variable>
+<variable qualification="Dimension" dataType="String">
+<id>LA</id>
+<name>Report ID</name>
+</variable>
+<variable qualification="Measure" dataType="DateTime">
+<id>L27</id>
+<name>Issue Date</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L4</id>
+<name>Paid Interest Amount</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L6</id>
+<name>Paid Loan Fee Amount</name>
+</variable>
+
+
+<variable qualification="Measure" dataType="Numeric">
+<id>L2</id>
+<name>Paid Principal Amount</name>
+</variable>
+
+
+<variable qualification="Measure" dataType="Numeric">
+<id>L8</id>
+<name>Paid Total Amount</name>
+</variable>
+<variable qualification="Measure" dataType="String">
+<id>LE</id>
+<name>Report Page Number</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L5</id>
+<name>Unpaid Interest Amount</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L7</id>
+<name>Unpaid Load Fee Amount</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L3</id>
+<name>Unpaid Principal Amount</name>
+</variable>
+<variable qualification="Measure" dataType="Numeric">
+<id>L9</id>
+<name>Unpaid Total Amount</name>
+</variable>
+</variables>

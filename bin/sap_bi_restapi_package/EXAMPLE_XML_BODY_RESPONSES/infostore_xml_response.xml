@@ -1,0 +1,823 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+<id>tag:sap.com,2010:bip-rs/infostore</id>
+<title type="text">InfoStore (@erpwtinf01.cchnl.hnl:6400)</title>
+<updated>2019-10-08T18:30:17.280Z</updated>
+<link href="http://erpwtinf01:6405/biprws/infostore/4/children?page=1&pageSize=50" rel="self"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/4/children?page=1&pageSize=50" rel="first"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/4/children?page=1&pageSize=50" rel="last"/>
+
+
+<entry>
+<title type="text">Alert Notifications</title>
+<id>tag:sap.com,2010:bip-rs/ARZB.BFCQk9PqaqDpcFwo1w</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Alert%20Notifications" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">64</attr>
+<attr name="cuid" type="string">ARZB.BFCQk9PqaqDpcFwo1w</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Alert Notifications</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+<entry>
+<title type="text">Application Folder</title>
+<id>tag:sap.com,2010:bip-rs/AdoctK9h1sBHp3I6uG0Sh7M</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Application%20Folder" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">43</attr>
+<attr name="cuid" type="string">AdoctK9h1sBHp3I6uG0Sh7M</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Application Folder</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+<entry>
+<title type="text">Calendars</title>
+<id>tag:sap.com,2010:bip-rs/Admn54NW6iJOjdI67VDKeZk</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Calendars" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">22</attr>
+<attr name="cuid" type="string">Admn54NW6iJOjdI67VDKeZk</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Calendars</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+<entry>
+<title type="text">Categories</title>
+<id>tag:sap.com,2010:bip-rs/AaIf8uqN5AZAn7jke7q8ffw</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Categories" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">45</attr>
+<attr name="cuid" type="string">AaIf8uqN5AZAn7jke7q8ffw</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Categories</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Cryptographic Keys</title>
+<id>tag:sap.com,2010:bip-rs/ARtaDNN5dJNMhN84nfkyscc</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Cryptographic%20Keys" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">65</attr>
+<attr name="cuid" type="string">ARtaDNN5dJNMhN84nfkyscc</attr>
+<attr name="description" type="string">Contains the encryption keys for this cluster</attr>
+<attr name="name" type="string">Cryptographic Keys</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Custom Dynamic Properties</title>
+<id>tag:sap.com,2010:bip-rs/AX7dVpEMMhxCgyFoCMDXUJY</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Custom%20Dynamic%20Properties" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">56</attr>
+<attr name="cuid" type="string">AX7dVpEMMhxCgyFoCMDXUJY</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Custom Dynamic Properties</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Custom Roles</title>
+<id>tag:sap.com,2010:bip-rs/AQxIJpjkbaRBrhcMvtnHAT4</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Custom%20Roles" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">57</attr>
+<attr name="cuid" type="string">AQxIJpjkbaRBrhcMvtnHAT4</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Custom Roles</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Dependency Rules</title>
+<id>tag:sap.com,2010:bip-rs/AeubGaYVdQJPpqAloMCVlTY</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Dependency%20Rules" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">4214</attr>
+<attr name="cuid" type="string">AeubGaYVdQJPpqAloMCVlTY</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Dependency Rules</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+
+<entry>
+<title type="text">Deployment Files</title>
+<id>tag:sap.com,2010:bip-rs/AfhjwbYdrptPrbstvikrnns</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Deployment%20Files" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">66</attr>
+<attr name="cuid" type="string">AfhjwbYdrptPrbstvikrnns</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Deployment Files</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Events</title>
+<id>tag:sap.com,2010:bip-rs/AccQcXgPa09ItUYKNpuwo6A</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Events" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">21</attr>
+<attr name="cuid" type="string">AccQcXgPa09ItUYKNpuwo6A</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Events</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Inboxes</title>
+<id>tag:sap.com,2010:bip-rs/AVmJiqdOvoRBoU1vQCZydFE</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Inboxes" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">48</attr>
+<attr name="cuid" type="string">AVmJiqdOvoRBoU1vQCZydFE</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Inboxes</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+
+<entry>
+<title type="text">Indexes</title>
+<id>tag:sap.com,2010:bip-rs/AdOUe77Fi0pGl_B_jDkxh_c</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Indexes" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">44</attr>
+<attr name="cuid" type="string">AdOUe77Fi0pGl_B_jDkxh_c</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Indexes</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+
+<entry>
+<title type="text">Internal Storage Folder</title>
+<id>tag:sap.com,2010:bip-rs/AYCIsELNOclPl7AoZLpzT4g</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Internal%20Storage%20Folder" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">60</attr>
+<attr name="cuid" type="string">AYCIsELNOclPl7AoZLpzT4g</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Internal Storage Folder</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">License Keys</title>
+<id>tag:sap.com,2010:bip-rs/Aa.csD5VlndMiTmMDZpIy4Q</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/License%20Keys" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">24</attr>
+<attr name="cuid" type="string">Aa.csD5VlndMiTmMDZpIy4Q</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">License Keys</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">License Restrictions</title>
+<id>tag:sap.com,2010:bip-rs/AagqrZmwXlFLmL0DZ5f5Ab8</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/License%20Restrictions" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">539</attr>
+<attr name="cuid" type="string">AagqrZmwXlFLmL0DZ5f5Ab8</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">License Restrictions</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Logical Groups</title>
+<id>tag:sap.com,2010:bip-rs/AeqYRbv26opLrzd92.uxtEE</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Logical%20Groups" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">4164</attr>
+<attr name="cuid" type="string">AeqYRbv26opLrzd92.uxtEE</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Logical Groups</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Logon Sessions</title>
+<id>tag:sap.com,2010:bip-rs/AYehkSvrLe1CsFqhXypUQ1I</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Logon%20Sessions" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">41</attr>
+<attr name="cuid" type="string">AYehkSvrLe1CsFqhXypUQ1I</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Logon Sessions</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">NewDB Instances</title>
+<id>tag:sap.com,2010:bip-rs/AXjxvFkLdNJAlliRMiLvRqY</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/NewDB%20Instances" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">4060</attr>
+<attr name="cuid" type="string">AXjxvFkLdNJAlliRMiLvRqY</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">NewDB Instances</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Personal Categories</title>
+<id>tag:sap.com,2010:bip-rs/ATI2BcB9RGBFuBi5s1TwL7k</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Personal%20Categories" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">47</attr>
+<attr name="cuid" type="string">ATI2BcB9RGBFuBi5s1TwL7k</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Personal Categories</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Plugins</title>
+<id>tag:sap.com,2010:bip-rs/AfJefXvM1T9Mh1GYkmoOlP8</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Plugins" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">25</attr>
+<attr name="cuid" type="string">AfJefXvM1T9Mh1GYkmoOlP8</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Plugins</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+
+
+
+
+
+
+
+<title type="text">Profiles</title>
+<id>tag:sap.com,2010:bip-rs/AR7QX6oTAqpLn1M6b8hsYjM</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Profiles" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">50</attr>
+<attr name="cuid" type="string">AR7QX6oTAqpLn1M6b8hsYjM</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Profiles</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+
+
+<entry>
+<title type="text">Relationships</title>
+<id>tag:sap.com,2010:bip-rs/AYYjM86wh3BFpIxkt4m0XBc</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Relationships" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">46</attr>
+<attr name="cuid" type="string">AYYjM86wh3BFpIxkt4m0XBc</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Relationships</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">Remote Connections</title>
+<id>tag:sap.com,2010:bip-rs/AVwSekNrtFxGqJ6Jp2rLwrI</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Remote%20Connections" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">538</attr>
+<attr name="cuid" type="string">AVwSekNrtFxGqJ6Jp2rLwrI</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Remote Connections</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Replication Lists</title>
+<id>tag:sap.com,2010:bip-rs/ASOr8wap3MJOgdWV5HLcZ1M</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Replication%20Lists" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">521</attr>
+<attr name="cuid" type="string">ASOr8wap3MJOgdWV5HLcZ1M</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Replication Lists</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Root Folder</title>
+<id>tag:sap.com,2010:bip-rs/ASHnC0S_Pw5LhKFbZ.iA_j4</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Root%20Folder" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">23</attr>
+<attr name="cuid" type="string">ASHnC0S_Pw5LhKFbZ.iA_j4</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Root Folder</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">SAML Service Providers</title>
+<id>tag:sap.com,2010:bip-rs/Ac.m6e2i1NpLhhYUAvJgAg8</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/SAML%20Service%20Providers" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">67</attr>
+<attr name="cuid" type="string">Ac.m6e2i1NpLhhYUAvJgAg8</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">SAML Service Providers</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">SecurityTokens</title>
+<id>tag:sap.com,2010:bip-rs/Ad5.8vflzphPiTJaXLjj5Qg</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/SecurityTokens" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">58</attr>
+<attr name="cuid" type="string">Ad5.8vflzphPiTJaXLjj5Qg</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">SecurityTokens</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Server Intelligence</title>
+<id>tag:sap.com,2010:bip-rs/AURpQjXWR05DtUkBkaJf_sg</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Server%20Intelligence" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">62</attr>
+<attr name="cuid" type="string">AURpQjXWR05DtUkBkaJf_sg</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Server Intelligence</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Subscription Instances</title>
+<id>tag:sap.com,2010:bip-rs/AX8G6hAg6YlAqypSYRZwJxc</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Subscription%20Instances" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">4111</attr>
+<attr name="cuid" type="string">AX8G6hAg6YlAqypSYRZwJxc</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">Subscription Instances</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+<entry>
+<title type="text">System Resources</title>
+<id>tag:sap.com,2010:bip-rs/AXixtdKpAlJOhiL1A.BviEA</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/System%20Resources" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">551</attr>
+<attr name="cuid" type="string">AXixtdKpAlJOhiL1A.BviEA</attr>
+<attr name="description" type="string" null="true"/>
+<attr name="name" type="string">System Resources</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Temporary Storage</title>
+<id>tag:sap.com,2010:bip-rs/AcUD83fMJzRDqb5l9u92aAA</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Temporary%20Storage" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">49</attr>
+<attr name="cuid" type="string">AcUD83fMJzRDqb5l9u92aAA</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Temporary Storage</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Tenants</title>
+<id>tag:sap.com,2010:bip-rs/AcyEtdI_1RxKp5AHSjavFCU</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Tenants" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">508</attr>
+<attr name="cuid" type="string">AcyEtdI_1RxKp5AHSjavFCU</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Tenants</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Tokens</title>
+<id>tag:sap.com,2010:bip-rs/AQa5hxfvK2FOgg0u6BqZ310</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Tokens" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">42</attr>
+<attr name="cuid" type="string">AQa5hxfvK2FOgg0u6BqZ310</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Tokens</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">User Folders</title>
+<id>tag:sap.com,2010:bip-rs/AWigQI18AAZJoXfRHLzWJ2c</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/User%20Folders" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">18</attr>
+<attr name="cuid" type="string">AWigQI18AAZJoXfRHLzWJ2c</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">User Folders</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">User Groups</title>
+<id>tag:sap.com,2010:bip-rs/AW7cVzZFpgFGjOVUdCiOpfE</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/User%20Groups" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">20</attr>
+<attr name="cuid" type="string">AW7cVzZFpgFGjOVUdCiOpfE</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">User Groups</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">Users</title>
+<id>tag:sap.com,2010:bip-rs/AXhmigik4CBKra9ZYzR2ezE</id>
+<author>
+<name>System Account</name>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/Users" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">19</attr>
+<attr name="cuid" type="string">AXhmigik4CBKra9ZYzR2ezE</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Users</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+</feed>

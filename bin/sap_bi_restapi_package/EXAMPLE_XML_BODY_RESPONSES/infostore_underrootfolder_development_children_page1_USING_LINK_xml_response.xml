@@ -1,0 +1,618 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+<id>
+tag:sap.com,2010:bip-rs/Af.xGDDL9HZBgRuq6Jcd16M/children
+</id>
+<title type="text">Children of Development</title>
+<updated>2019-10-17T19:01:52.608Z</updated>
+<link href="http://erpwtinf01:6405/biprws/infostore/27944/children?page=1&pageSize=50" rel="self"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/27944/children?page=1&pageSize=50" rel="first"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/27944/children?page=1&pageSize=50" rel="last"/>
+<entry>
+<title type="text">Ada</title>
+<id>tag:sap.com,2010:bip-rs/AVOXQVwye8JBlFlnRBIomS0</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27953" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27953</attr>
+<attr name="cuid" type="string">AVOXQVwye8JBlFlnRBIomS0</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Ada</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Andy</title>
+<id>tag:sap.com,2010:bip-rs/AYUPhIARbLJJtLiIp32hKW0</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27950" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27950</attr>
+<attr name="cuid" type="string">AYUPhIARbLJJtLiIp32hKW0</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Andy</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Anees</title>
+<id>tag:sap.com,2010:bip-rs/AX6QLJonyH9LvJ3g8G0YZA0</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/189386" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">189386</attr>
+<attr name="cuid" type="string">AX6QLJonyH9LvJ3g8G0YZA0</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Anees</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Anthony</title>
+<id>tag:sap.com,2010:bip-rs/AXdVh8z9PZ1OsBcxrHPd4bw</id>
+<author>
+<name>anthony.marlin</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/449030</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/458927" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">458927</attr>
+<attr name="cuid" type="string">AXdVh8z9PZ1OsBcxrHPd4bw</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Anthony</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Bong</title>
+<id>tag:sap.com,2010:bip-rs/AYae_.FBNINDp8LC1TW1ykU</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/37604" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">37604</attr>
+<attr name="cuid" type="string">AYae_.FBNINDp8LC1TW1ykU</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Bong</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Cole</title>
+<id>tag:sap.com,2010:bip-rs/Ae8UbzD9Sq5KlqTfwbWmL3A</id>
+<author>
+<name>cole.suyemoto</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/546434</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/548173" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">548173</attr>
+<attr name="cuid" type="string">Ae8UbzD9Sq5KlqTfwbWmL3A</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Cole</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">David</title>
+<id>tag:sap.com,2010:bip-rs/Af5WeAjRA2hJrPWrdbvlPXs</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27948" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27948</attr>
+<attr name="cuid" type="string">Af5WeAjRA2hJrPWrdbvlPXs</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">David</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Derek</title>
+<id>tag:sap.com,2010:bip-rs/AfS6nuya8pRHuU.veLcV2rc</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/202104" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">202104</attr>
+<attr name="cuid" type="string">AfS6nuya8pRHuU.veLcV2rc</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Derek</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+
+
+
+
+
+
+<entry>
+<title type="text">F982 Analysis_v2</title>
+<id>tag:sap.com,2010:bip-rs/Afh2ANw4WWlMig0ecOjPcYQ</id>
+<author>
+   <name>andy.huynh</name>
+   <uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/465810" rel="alternate"/>
+<content type="application/xml">
+    <attrs xmlns="http://www.sap.com/rws/bip">
+        <attr name="id" type="int32">465810</attr>
+        <attr name="cuid" type="string">Afh2ANw4WWlMig0ecOjPcYQ</attr>
+        <attr name="description" type="string"/>
+        <attr name="name" type="string">F982 Analysis_v2</attr>
+        <attr name="type" type="string">Webi</attr>
+    </attrs>
+</content>
+</entry>
+
+
+
+
+
+
+
+
+<entry>
+<title type="text">Gary</title>
+<id>tag:sap.com,2010:bip-rs/AVw1II8bN05AoVu_RVLnIR4</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27946" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27946</attr>
+<attr name="cuid" type="string">AVw1II8bN05AoVu_RVLnIR4</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Gary</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Gigi</title>
+<id>tag:sap.com,2010:bip-rs/AZ49CuSyoTZLg_VQ84FuCwk</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27945" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27945</attr>
+<attr name="cuid" type="string">AZ49CuSyoTZLg_VQ84FuCwk</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Gigi</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">help</title>
+<id>tag:sap.com,2010:bip-rs/AVPwolEmtCJClFpq6Hm7.5I</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/541423" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">541423</attr>
+<attr name="cuid" type="string">AVPwolEmtCJClFpq6Hm7.5I</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">help</attr>
+<attr name="type" type="string">Webi</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Howie</title>
+<id>tag:sap.com,2010:bip-rs/AYAtd2FU8pFPllEw0oovjbg</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/51843" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">51843</attr>
+<attr name="cuid" type="string">AYAtd2FU8pFPllEw0oovjbg</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Howie</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">HRM-PR-0010 Payroll Deposit Recap</title>
+<id>tag:sap.com,2010:bip-rs/AeqwYmHxaRxLossR5_PX2M0</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/498263" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">498263</attr>
+<attr name="cuid" type="string">AeqwYmHxaRxLossR5_PX2M0</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">HRM-PR-0010 Payroll Deposit Recap</attr>
+<attr name="type" type="string">Webi</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">James</title>
+<id>tag:sap.com,2010:bip-rs/AannLppzHZVBhD7WKIucdJM</id>
+<author>
+<name>hrm.admin</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15391</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/279389" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">279389</attr>
+<attr name="cuid" type="string">AannLppzHZVBhD7WKIucdJM</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">James</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Jeanie</title>
+<id>tag:sap.com,2010:bip-rs/AYVAuuZ_4whHmCZbydAOIPI</id>
+<author>
+<name>jeanellen.hioki</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/322124</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/539385" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">539385</attr>
+<attr name="cuid" type="string">AYVAuuZ_4whHmCZbydAOIPI</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Jeanie</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Jenny</title>
+<id>tag:sap.com,2010:bip-rs/AY53Q892mLhIi1QeKM9rMPo</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27954" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27954</attr>
+<attr name="cuid" type="string">AY53Q892mLhIi1QeKM9rMPo</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Jenny</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Johny</title>
+<id>tag:sap.com,2010:bip-rs/AbkDzfA6wFdEsTFKTikeYyc</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/452176" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">452176</attr>
+<attr name="cuid" type="string">AbkDzfA6wFdEsTFKTikeYyc</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Johny</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Jonathan</title>
+<id>tag:sap.com,2010:bip-rs/Abac64SvxHtBpoU2qQ.F78E</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/45147" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">45147</attr>
+<attr name="cuid" type="string">Abac64SvxHtBpoU2qQ.F78E</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Jonathan</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Kara</title>
+<id>tag:sap.com,2010:bip-rs/AcjXBSahMH9LuuFdDrZp3gs</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/61836" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">61836</attr>
+<attr name="cuid" type="string">AcjXBSahMH9LuuFdDrZp3gs</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Kara</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Karl</title>
+<id>tag:sap.com,2010:bip-rs/Aa280XvWUjdDvJqZSMbJjis</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/528500" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">528500</attr>
+<attr name="cuid" type="string">Aa280XvWUjdDvJqZSMbJjis</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Karl</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Limi</title>
+<id>tag:sap.com,2010:bip-rs/AUGNciGiHB9BlJTeCRxCYWQ</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27951" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27951</attr>
+<attr name="cuid" type="string">AUGNciGiHB9BlJTeCRxCYWQ</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Limi</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Loreen</title>
+<id>tag:sap.com,2010:bip-rs/AT1JBBus0vJJlgEjH7OSUiA</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27947" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27947</attr>
+<attr name="cuid" type="string">AT1JBBus0vJJlgEjH7OSUiA</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Loreen</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Marta</title>
+<id>tag:sap.com,2010:bip-rs/ATQJ_L2fEGFKrKUPkw5Fj8o</id>
+<author>
+<name>marta.katona</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/489878</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/499031" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">499031</attr>
+<attr name="cuid" type="string">ATQJ_L2fEGFKrKUPkw5Fj8o</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Marta</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Maxwell</title>
+<id>tag:sap.com,2010:bip-rs/AYs1wGvGHmlDnPvI4enSjso</id>
+<author>
+<name>johny.zheng</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/392972</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/588529" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">588529</attr>
+<attr name="cuid" type="string">AYs1wGvGHmlDnPvI4enSjso</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Maxwell</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Michael</title>
+<id>tag:sap.com,2010:bip-rs/AdRHFG94dkROpeOnM_5qCM8</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27952" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27952</attr>
+<attr name="cuid" type="string">AdRHFG94dkROpeOnM_5qCM8</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Michael</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">PAM Recon</title>
+<id>tag:sap.com,2010:bip-rs/AU.Hk2V36PNNknrR4TPeY5g</id>
+<author>
+<name>gary.li</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/505723</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/508305" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">508305</attr>
+<attr name="cuid" type="string">AU.Hk2V36PNNknrR4TPeY5g</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">PAM Recon</attr>
+<attr name="type" type="string">Webi</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">R4 Report Tracker</title>
+<id>tag:sap.com,2010:bip-rs/AaokadQYojNImB6Zdfy4YNk</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/98280" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">98280</attr>
+<attr name="cuid" type="string">AaokadQYojNImB6Zdfy4YNk</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">R4 Report Tracker</attr>
+<attr name="type" type="string">Webi</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Stacey</title>
+<id>tag:sap.com,2010:bip-rs/AbjbMBm32s9OuCDo4wyptnc</id>
+<author>
+<name>andy.huynh</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/14792</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/27949" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">27949</attr>
+<attr name="cuid" type="string">AbjbMBm32s9OuCDo4wyptnc</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Stacey</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">template</title>
+<id>tag:sap.com,2010:bip-rs/AQJ8B0nQZtlOhbgBdB8eivE</id>
+<author>
+<name>Administrator</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/12</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/211382" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">211382</attr>
+<attr name="cuid" type="string">AQJ8B0nQZtlOhbgBdB8eivE</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">template</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Travis</title>
+<id>tag:sap.com,2010:bip-rs/AbXxA8hUqdBAiOBjWTSczGc</id>
+<author>
+<name>johny.zheng</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/392972</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/514574" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">514574</attr>
+<attr name="cuid" type="string">AbXxA8hUqdBAiOBjWTSczGc</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Travis</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Weicong</title>
+<id>tag:sap.com,2010:bip-rs/AZuc01JQytBKvLgb7C801Rg</id>
+<author>
+<name>gigi.chan</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/15658</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/61844" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">61844</attr>
+<attr name="cuid" type="string">AZuc01JQytBKvLgb7C801Rg</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Weicong</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+<entry>
+<title type="text">Wendy</title>
+<id>tag:sap.com,2010:bip-rs/AUUqYvBxFjhGuiwg9v7of9g</id>
+<author>
+<name>anthony.marlin</name>
+<uri>http://erpwtinf01:6405/biprws/infostore/449030</uri>
+</author>
+<link href="http://erpwtinf01:6405/biprws/infostore/467239" rel="alternate"/>
+<content type="application/xml">
+<attrs xmlns="http://www.sap.com/rws/bip">
+<attr name="id" type="int32">467239</attr>
+<attr name="cuid" type="string">AUUqYvBxFjhGuiwg9v7of9g</attr>
+<attr name="description" type="string"/>
+<attr name="name" type="string">Wendy</attr>
+<attr name="type" type="string">Folder</attr>
+</attrs>
+</content>
+</entry>
+</feed>

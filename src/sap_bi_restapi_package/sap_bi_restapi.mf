@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: sap_bi_restapi_package.sap_bi_restapi
+

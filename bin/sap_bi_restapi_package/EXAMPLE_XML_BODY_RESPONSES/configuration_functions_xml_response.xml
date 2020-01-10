@@ -1,0 +1,2232 @@
+<functions>
+
+
+<function category="Misc" returnType="string">
+<id>BLOCKNAME</id>
+<name>BlockName</name>
+<description>Returns the block name</description>
+<syntax>string BlockName()</syntax>
+</function>
+
+
+<function category="Misc" returnType="number">
+<id>COLUMNNUMBER</id>
+<name>ColumnNumber</name>
+<description>Returns the column number</description>
+<syntax>int ColumnNumber()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>CURRENTUSER</id>
+<name>CurrentUser</name>
+<description>Returns the InfoView logon of the current user</description>
+<syntax>string CurrentUser()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>DEPTH</id>
+<name>Depth</name>
+<description>Returns the depth of a member in a hierarchy</description>
+<syntax>int [member].Depth</syntax>
+</function>
+
+
+<function category="Misc" returnType="undefined">
+<id>ELSE</id>
+<name>Else</name>
+<description>
+Returns a value from the If function when the test expression is false
+</description>
+<syntax>Else false_value</syntax>
+</function>
+
+
+<function category="Misc" returnType="undefined">
+<id>ELSEIF</id>
+<name>ElseIf</name>
+<description>Nests an If function in another If function</description>
+<syntax>ElseIf test_value</syntax>
+</function>
+
+
+<function category="Misc" returnType="any">
+<id>FORCEMERGE</id>
+<name>ForceMerge</name>
+<description>
+Includes synchronized dimensions in measure calculations when the dimensions are not in the calculation context
+</description>
+<syntax>num ForceMerge(number)</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>GETCONTENTLOCALE</id>
+<name>GetContentLocale</name>
+<description>
+Returns the locale of the data contained in the document (the Document Locale)
+</description>
+<syntax>string GetContentLocale()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>GETDOMINANTPREFERREDVIEWINGLOCALE</id>
+<name>GetDominantPreferredViewingLocale</name>
+<description>
+Returns the dominant locale in the user's Preferred Viewing Locale group.
+</description>
+<syntax>string GetDominantPreferredViewingLocale()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>GETLOCALE</id>
+<name>GetLocale</name>
+<description>
+Returns the user's locale used to format the interface (the Product Locale)
+</description>
+<syntax>string GetLocale()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>GETLOCALIZED</id>
+<name>GetLocalized</name>
+<description>
+Returns a string localized according to the user's Preferred Viewing Locale
+</description>
+<syntax>string GetLocalized(string[;comment])</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>GETPREFERREDVIEWINGLOCALE</id>
+<name>GetPreferredViewingLocale</name>
+<description>
+Returns the user's preferred locale for viewing document data (the Preferred Viewing Locale)
+</description>
+<syntax>string GetPreferredViewingLocale()</syntax>
+</function>
+
+
+<function category="Misc" returnType="undefined">
+<id>IF</id>
+<name>If</name>
+<description>
+Returns a value based on whether an expression is true or false
+</description>
+<syntax>If bool_value Then true_value [Else false_value]</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>KEY</id>
+<name>Key</name>
+<description>Returns the key of a member</description>
+<syntax>string member.Key</syntax>
+</function>
+
+
+<function category="Misc" returnType="number">
+<id>LINENUMBER</id>
+<name>LineNumber</name>
+<description>Returns the line number in a block</description>
+<syntax>int LineNumber()</syntax>
+</function>
+
+
+<function category="Misc" returnType="string">
+<id>NAMEOF</id>
+<name>NameOf</name>
+<description>Returns the name of an object</description>
+<syntax>string NameOf(obj)</syntax>
+</function>
+
+
+<function category="Misc" returnType="any">
+<id>NOFILTER</id>
+<name>NoFilter</name>
+<description>Ignores filters when calculating a value</description>
+<syntax>input_type NoFilter(obj[;All|Drill])</syntax>
+</function>
+
+
+<function category="Misc" returnType="number">
+<id>NUMBEROFPAGES</id>
+<name>NumberOfPages</name>
+<description>Returns the number of pages in a report</description>
+<syntax>int NumberOfPages()</syntax>
+</function>
+
+
+<function category="Misc" returnType="number">
+<id>PAGE</id>
+<name>Page</name>
+<description>Returns the current page number in a report</description>
+<syntax>int Page()</syntax>
+</function>
+
+
+<function category="Misc" returnType="undefined">
+<id>PREVIOUS</id>
+<name>Previous</name>
+<description>Returns a previous value of an object</description>
+<syntax>
+input_type Previous(dimension|measure|Self[;reset_dims][;offset][;NoNull])
+</syntax>
+</function>
+
+
+<function category="Misc" returnType="any">
+<id>REFVALUE</id>
+<name>RefValue</name>
+<description>
+Returns the reference value of a report object when data tracking is activated
+</description>
+<syntax>input_type RefValue(obj)</syntax>
+</function>
+
+
+<function category="Misc" returnType="undefined">
+<id>RELATIVEVALUE</id>
+<name>RelativeValue</name>
+<description>
+Returns previous or subsequent values of a dimension or measure
+</description>
+<syntax>
+input_type RelativeValue(dimension|measure;slicing_dims;offset)
+</syntax>
+</function>
+
+
+
+<function category="Misc" returnType="string">
+<id>REPORTNAME</id>
+<name>ReportName</name>
+<description>Returns the name of a report</description>
+<syntax>string ReportName()</syntax>
+</function>
+
+
+
+<function category="Misc" returnType="number">
+<id>ROWINDEX</id>
+<name>RowIndex</name>
+<description>Returns the row number in a table</description>
+<syntax>int RowIndex()</syntax>
+</function>
+<function category="Misc" returnType="undefined">
+<id>THEN</id>
+<name>Then</name>
+<description>
+Returns a value from the If function when the test expression is true
+</description>
+<syntax>Then true_value</syntax>
+</function>
+<function category="Misc" returnType="string">
+<id>UNIQUENAMEOF</id>
+<name>UniqueNameOf</name>
+<description>Returns the unique name of an object</description>
+<syntax>string UniqueNameOf(obj)</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>DOCUMENTAUTHOR</id>
+<name>DocumentAuthor</name>
+<description>Returns the InfoView logon of the document creator</description>
+<syntax>string DocumentAuthor()</syntax>
+</function>
+<function category="Document" returnType="date">
+<id>DOCUMENTCREATIONDATE</id>
+<name>DocumentCreationDate</name>
+<description>Returns the date on which a document was created</description>
+<syntax>date DocumentCreationDate()</syntax>
+</function>
+<function category="Document" returnType="date">
+<id>DOCUMENTCREATIONTIME</id>
+<name>DocumentCreationTime</name>
+<description>Returns the time when a document was created</description>
+<syntax>time DocumentCreationTime()</syntax>
+</function>
+<function category="Document" returnType="date">
+<id>DOCUMENTDATE</id>
+<name>DocumentDate</name>
+<description>
+Returns the date on which a document was last saved
+</description>
+<syntax>date DocumentDate()</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>DOCUMENTNAME</id>
+<name>DocumentName</name>
+<description>Returns the document name</description>
+<syntax>string DocumentName()</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>DOCUMENTOWNER</id>
+<name>DocumentOwner</name>
+<description>
+Returns the InfoView logon or name of the person who last saved the document
+</description>
+<syntax>string DocumentOwner()</syntax>
+</function>
+<function category="Document" returnType="bool">
+<id>DOCUMENTPARTIALLYREFRESHED</id>
+<name>DocumentPartiallyRefreshed</name>
+<description>
+Determines whether a document is fully or partially refreshed
+</description>
+<syntax>bool DocumentPartiallyRefreshed()</syntax>
+</function>
+<function category="Document" returnType="time">
+<id>DOCUMENTTIME</id>
+<name>DocumentTime</name>
+<description>Returns the time when a document was last saved</description>
+<syntax>time DocumentTime()</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>DRILLFILTERS</id>
+<name>DrillFilters</name>
+<description>
+Returns the drill filters applied to a document or object in drill mode
+</description>
+<syntax>string DrillFilters([obj|separator])</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>PROMPTSUMMARY</id>
+<name>PromptSummary</name>
+<description>
+Returns the prompt text and user response of all prompts in a document
+</description>
+<syntax>string PromptSummary()</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>QUERYSUMMARY</id>
+<name>QuerySummary</name>
+<description>
+Returns information about the queries in a document
+</description>
+<syntax>string QuerySummary([dp])</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>REPORTFILTER</id>
+<name>ReportFilter</name>
+<description>Returns the report filters applied to an object</description>
+<syntax>string ReportFilter(obj)</syntax>
+</function>
+<function category="Document" returnType="string">
+<id>REPORTFILTERSUMMARY</id>
+<name>ReportFilterSummary</name>
+<description>
+Returns a summary of the report filters in a document or report
+</description>
+<syntax>string ReportFilterSummary(report_name)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>EVEN</id>
+<name>Even</name>
+<description>Determines whether a number is even</description>
+<syntax>bool Even(number)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISDATE</id>
+<name>IsDate</name>
+<description>Determines whether a value is a date</description>
+<syntax>bool IsDate(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISERROR</id>
+<name>IsError</name>
+<description>Determines whether an object returns an error</description>
+<syntax>bool IsError(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISLOGICAL</id>
+<name>IsLogical</name>
+<description>Determines whether a value is boolean</description>
+<syntax>bool IsLogical(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISNULL</id>
+<name>IsNull</name>
+<description>Determines whether a value is null</description>
+<syntax>bool IsNull(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISNUMBER</id>
+<name>IsNumber</name>
+<description>Determines whether a value is a number</description>
+<syntax>bool IsNumber(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISSTRING</id>
+<name>IsString</name>
+<description>Determines whether a value is a string</description>
+<syntax>bool IsString(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ISTIME</id>
+<name>IsTime</name>
+<description>Determines whether a value is a time</description>
+<syntax>bool IsTime(obj)</syntax>
+</function>
+<function category="Logical" returnType="bool">
+<id>ODD</id>
+<name>Odd</name>
+<description>Determines whether a number is odd</description>
+<syntax>bool Odd(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>ABS</id>
+<name>Abs</name>
+<description>Returns the absolute value of a number</description>
+<syntax>num Abs(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>CEIL</id>
+<name>Ceil</name>
+<description>Rounds a number up to the nearest integer </description>
+<syntax>num Ceil(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>COS</id>
+<name>Cos</name>
+<description>Returns the cosine of an angle</description>
+<syntax>num Cos(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>EUROCONVERTFROM</id>
+<name>EuroConvertFrom</name>
+<description>Converts a euro amount to another currency</description>
+<syntax>
+num EuroConvertFrom(euro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>EUROCONVERTTO</id>
+<name>EuroConvertTo</name>
+<description>Converts an amount to euros</description>
+<syntax>
+num EuroConvertTo(noneuro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>EUROFROMROUNDERROR</id>
+<name>EuroFromRoundError</name>
+<description>
+Returns the rounding error in a conversion from euros
+</description>
+<syntax>
+num EuroFromRoundError(euro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>EUROTOROUNDERROR</id>
+<name>EuroToRoundError</name>
+<description>
+Returns the rounding error in a conversion to euros
+</description>
+<syntax>
+num EuroToRoundError(noneuro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>EXP</id>
+<name>Exp</name>
+<description>Returns an exponential (e raised to a power)</description>
+<syntax>num Exp(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>FACT</id>
+<name>Fact</name>
+<description>Returns the factorial of an integer</description>
+<syntax>num Fact(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>FLOOR</id>
+<name>Floor</name>
+<description>Rounds a number down to the nearest integer</description>
+<syntax>int Floor(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>LN</id>
+<name>Ln</name>
+<description>Returns the natural logarithm of a number</description>
+<syntax>num Ln(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>LOG</id>
+<name>Log</name>
+<description>Returns the base n logarithm of a number</description>
+<syntax>num Log(number;base)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>LOG10</id>
+<name>Log10</name>
+<description>Returns the base 10 logarithm of a number</description>
+<syntax>num Log10(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>MOD</id>
+<name>Mod</name>
+<description>
+Returns the remainder from the division of two numbers
+</description>
+<syntax>num Mod(dividend;divisor)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>POWER</id>
+<name>Power</name>
+<description>Returns a number raised to a power</description>
+<syntax>num Power(number;power)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>RANK</id>
+<name>Rank</name>
+<description>Ranks a measure by dimensions</description>
+<syntax>
+int Rank(measure[;ranking_dims][;Top|Bottom][;reset_dims])
+</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>ROUND</id>
+<name>Round</name>
+<description>Rounds a number </description>
+<syntax>num Round(number;round_level)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>SIGN</id>
+<name>Sign</name>
+<description>Returns the sign of a number</description>
+<syntax>int Sign(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>SIN</id>
+<name>Sin</name>
+<description>Returns the sine of an angle</description>
+<syntax>num Sin(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>SQRT</id>
+<name>Sqrt</name>
+<description>Returns the square root of a number</description>
+<syntax>num Sqrt(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>TAN</id>
+<name>Tan</name>
+<description>Returns the tangent of an angle</description>
+<syntax>num Tan(number)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>TONUMBER</id>
+<name>ToNumber</name>
+<description>Returns a string as a number</description>
+<syntax>num ToNumber(string)</syntax>
+</function>
+<function category="Numeric" returnType="number">
+<id>TRUNCATE</id>
+<name>Truncate</name>
+<description>Truncates a number</description>
+<syntax>num Truncate(number;truncate_level)</syntax>
+</function>
+<function category="DataProvider" returnType="string">
+<id>CONNECTION</id>
+<name>Connection</name>
+<description>
+Returns the parameters of the database connection used by a data provider
+</description>
+<syntax>string Connection(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>DATAPROVIDER</id>
+<name>DataProvider</name>
+<description>
+Returns the name of the data provider containing a report object
+</description>
+<syntax>string DataProvider(obj)</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>DATAPROVIDERKEYDATE</id>
+<name>DataProviderKeyDate</name>
+<description>Returns the keydate of a data provider</description>
+<syntax>date DataProviderKeyDate(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>DATAPROVIDERKEYDATECAPTION</id>
+<name>DataProviderKeyDateCaption</name>
+<description>Returns the keydate caption of a data provider</description>
+<syntax>string DataProviderKeyDateCaption(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="string">
+<id>DATAPROVIDERSQL</id>
+<name>DataProviderSQL</name>
+<description>Returns the SQL generated by a data provider</description>
+<syntax>string DataProviderSQL(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>DATAPROVIDERTYPE</id>
+<name>DataProviderType</name>
+<description>Returns the type of a data provider</description>
+<syntax>string DataProviderType(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>ISPROMPTANSWERED</id>
+<name>IsPromptAnswered</name>
+<description>Determines whether a prompt has been answered</description>
+<syntax>bool IsPromptAnswered([dp;]prompt_string)</syntax>
+</function>
+<function category="DataProvider" returnType="date">
+<id>LASTEXECUTIONDATE</id>
+<name>LastExecutionDate</name>
+<description>
+Returns the date on which a data provider was last refreshed
+</description>
+<syntax>date LastExecutionDate([dp])</syntax>
+</function>
+<function category="DataProvider" returnType="date">
+<id>LASTEXECUTIONDURATION</id>
+<name>LastExecutionDuration</name>
+<description>
+Returns the time in seconds taken by the last refresh of a data provider
+</description>
+<syntax>int LastExecutionDuration([dp])</syntax>
+</function>
+<function category="DataProvider" returnType="time">
+<id>LASTEXECUTIONTIME</id>
+<name>LastExecutionTime</name>
+<description>
+Returns the time at which a data provider was last refreshed
+</description>
+<syntax>time LastExecutionTime([dp])</syntax>
+</function>
+<function category="DataProvider" returnType="number">
+<id>NUMBEROFDATAPROVIDERS</id>
+<name>NumberOfDataProviders</name>
+<description>Returns the number of data providers in a report</description>
+<syntax>int NumberOfDataProviders()</syntax>
+</function>
+<function category="DataProvider" returnType="number">
+<id>NUMBEROFROWS</id>
+<name>NumberOfRows</name>
+<description>Returns the number of rows in a data provider</description>
+<syntax>int NumberOfRows([dp])</syntax>
+</function>
+<function category="DataProvider" returnType="time">
+<id>REFVALUEDATE</id>
+<name>RefValueDate</name>
+<description>
+Returns the date of the reference data used for data tracking
+</description>
+<syntax>date RefValueDate()</syntax>
+</function>
+<function category="DataProvider" returnType="string">
+<id>REFVALUEUSERRESPONSE</id>
+<name>RefValueUserResponse</name>
+<description>
+Returns the response to a prompt when the reference data was the current data
+</description>
+<syntax>
+string RefValueUserResponse([dp;]prompt_string[;Index])
+</syntax>
+</function>
+<function category="DataProvider" returnType="undefined">
+<id>SERVERVALUE</id>
+<name>ServerValue</name>
+<description>
+Returns the value of a measure calculated by the database.
+</description>
+<syntax>ServerValue([measure])</syntax>
+</function>
+<function category="DataProvider" returnType="string">
+<id>UNIVERSENAME</id>
+<name>UniverseName</name>
+<description>
+Returns the name of the universe on which a data provider is based
+</description>
+<syntax>string UniverseName(dp)</syntax>
+</function>
+<function category="DataProvider" returnType="string">
+<id>USERRESPONSE</id>
+<name>UserResponse</name>
+<description>Returns the response to a prompt</description>
+<syntax>string UserResponse([dp;]prompt_string[;Index])</syntax>
+</function>
+<function category="DateTime" returnType="date">
+<id>CURRENTDATE</id>
+<name>CurrentDate</name>
+<description>
+Returns the current date formatted according to the regional settings
+</description>
+<syntax>date CurrentDate()</syntax>
+</function>
+<function category="DateTime" returnType="time">
+<id>CURRENTTIME</id>
+<name>CurrentTime</name>
+<description>
+Returns the current time formatted according to the regional settings
+</description>
+<syntax>time CurrentTime()</syntax>
+</function>
+<function category="DateTime" returnType="string">
+<id>DAYNAME</id>
+<name>DayName</name>
+<description>Returns the day name in a date</description>
+<syntax>string DayName(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>DAYNUMBEROFMONTH</id>
+<name>DayNumberOfMonth</name>
+<description>Returns the day number in a month</description>
+<syntax>int DayNumberOfMonth(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>DAYNUMBEROFWEEK</id>
+<name>DayNumberOfWeek</name>
+<description>Returns the day number in a week</description>
+<syntax>int DayNumberOfWeek(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>DAYNUMBEROFYEAR</id>
+<name>DayNumberOfYear</name>
+<description>Returns the day number in a year</description>
+<syntax>int DayNumberOfYear(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>DAYSBETWEEN</id>
+<name>DaysBetween</name>
+<description>Returns the number of days between two dates</description>
+<syntax>int DaysBetween(first_date;last_date)</syntax>
+</function>
+<function category="DateTime" returnType="date">
+<id>LASTDAYOFMONTH</id>
+<name>LastDayOfMonth</name>
+<description>Returns the date of the last day in a month</description>
+<syntax>date LastDayOfMonth(date)</syntax>
+</function>
+<function category="DateTime" returnType="date">
+<id>LASTDAYOFWEEK</id>
+<name>LastDayOfWeek</name>
+<description>Returns the date of the last day in a week</description>
+<syntax>date LastDayOfWeek(date)</syntax>
+</function>
+<function category="DateTime" returnType="string">
+<id>MONTH</id>
+<name>Month</name>
+<description>Returns the month name in a date</description>
+<syntax>string Month(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>MONTHNUMBEROFYEAR</id>
+<name>MonthNumberOfYear</name>
+<description>Returns the month number in a date</description>
+<syntax>int MonthNumberOfYear(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>MONTHSBETWEEN</id>
+<name>MonthsBetween</name>
+<description>Returns the number of months between two dates</description>
+<syntax>int MonthsBetween(first_date;last_date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>QUARTER</id>
+<name>Quarter</name>
+<description>Returns the quarter number in a date</description>
+<syntax>int Quarter(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>RELATIVEDATE</id>
+<name>RelativeDate</name>
+<description>Returns a date relative to another date</description>
+<syntax>date RelativeDate(start_date;num_days)</syntax>
+</function>
+<function category="DateTime" returnType="undefined">
+<id>TIMEDIM</id>
+<name>TimeDim</name>
+<description>Create a contigous and continous time axis.</description>
+<syntax>date TimeDim(date;period)</syntax>
+</function>
+<function category="DateTime" returnType="date">
+<id>TODATE</id>
+<name>ToDate</name>
+<description>
+Returns a date from a date as string according to a date format
+</description>
+<syntax>date ToDate(date_string;format)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>WEEK</id>
+<name>Week</name>
+<description>Returns the week number in the year</description>
+<syntax>int Week(date)</syntax>
+</function>
+<function category="DateTime" returnType="number">
+<id>YEAR</id>
+<name>Year</name>
+<description>Returns the year in a date</description>
+<syntax>int Year(date)</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>ANCESTOR</id>
+<name>Ancestor</name>
+<description>Returns an ancestor member of a member</description>
+<syntax>member Ancestor(member;level|distance)</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>CHILDREN</id>
+<name>Children</name>
+<description>Returns the childrens member</description>
+<syntax>member_set member.Children</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>DESCENDANTS</id>
+<name>Descendants</name>
+<description>Returns descendant members of a member</description>
+<syntax>
+member_set Descendants(member;[level|distance];[desc_flag])
+</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>ISLEAF</id>
+<name>IsLeaf</name>
+<description>Determines whether a member is a leaf member</description>
+<syntax>bool member.IsLeaf</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>LAG</id>
+<name>Lag</name>
+<description>
+Returns the member a given distance before a member
+</description>
+<syntax>member Lag(distance)</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>PARENT</id>
+<name>Parent</name>
+<description>Returns the parent member of a member</description>
+<syntax>member member.Parent</syntax>
+</function>
+<function category="Set" returnType="string">
+<id>SIBLINGS</id>
+<name>Siblings</name>
+<description>Returns the sibling members of a member</description>
+<syntax>member_set member.Siblings</syntax>
+</function>
+<function returnType="number">
+<id>ABS</id>
+<name>Abs</name>
+<description>Returns the absolute value of a number</description>
+<syntax>num Abs(number)</syntax>
+</function>
+<function returnType="number">
+<id>AGGREGATE</id>
+<name>Aggregate</name>
+<description>Returns the default aggregation of a measure.</description>
+<syntax>num Aggregate(measure,set)</syntax>
+</function>
+<function returnType="string">
+<id>ANCESTOR</id>
+<name>Ancestor</name>
+<description>Returns an ancestor member of a member</description>
+<syntax>member Ancestor(member;level|distance)</syntax>
+</function>
+<function returnType="number">
+<id>ASC</id>
+<name>Asc</name>
+<description>Returns the ASCII value of a character</description>
+<syntax>int Asc(string)</syntax>
+</function>
+<function returnType="number">
+<id>AVERAGE</id>
+<name>Average</name>
+<description>Returns the average value of a measure</description>
+<syntax>num Average(measure[;IncludeEmpty])</syntax>
+</function>
+<function returnType="string">
+<id>BLOCKNAME</id>
+<name>BlockName</name>
+<description>Returns the block name</description>
+<syntax>string BlockName()</syntax>
+</function>
+<function returnType="number">
+<id>CEIL</id>
+<name>Ceil</name>
+<description>Rounds a number up to the nearest integer </description>
+<syntax>num Ceil(number)</syntax>
+</function>
+<function returnType="string">
+<id>CHAR</id>
+<name>Char</name>
+<description>
+Returns the character associated with an ASCII code
+</description>
+<syntax>string Char(ascii_code)</syntax>
+</function>
+<function returnType="string">
+<id>CHILDREN</id>
+<name>Children</name>
+<description>Returns the childrens member</description>
+<syntax>member_set member.Children</syntax>
+</function>
+<function returnType="number">
+<id>COLUMNNUMBER</id>
+<name>ColumnNumber</name>
+<description>Returns the column number</description>
+<syntax>int ColumnNumber()</syntax>
+</function>
+<function returnType="string">
+<id>CONCATENATION</id>
+<name>Concatenation</name>
+<description>Concatenates (joins) two strings</description>
+<syntax>string Concatenation(first_string;second_string)</syntax>
+</function>
+<function returnType="string">
+<id>CONNECTION</id>
+<name>Connection</name>
+<description>
+Returns the parameters of the database connection used by a data provider
+</description>
+<syntax>string Connection(dp)</syntax>
+</function>
+<function returnType="number">
+<id>COS</id>
+<name>Cos</name>
+<description>Returns the cosine of an angle</description>
+<syntax>num Cos(number)</syntax>
+</function>
+<function returnType="number">
+<id>COUNT</id>
+<name>Count</name>
+<description>
+Returns the number of values in a dimension or measure
+</description>
+<syntax>int Count(obj[;IncludeEmpty][;Distinct|All])</syntax>
+</function>
+<function returnType="date">
+<id>CURRENTDATE</id>
+<name>CurrentDate</name>
+<description>
+Returns the current date formatted according to the regional settings
+</description>
+<syntax>date CurrentDate()</syntax>
+</function>
+<function returnType="time">
+<id>CURRENTTIME</id>
+<name>CurrentTime</name>
+<description>
+Returns the current time formatted according to the regional settings
+</description>
+<syntax>time CurrentTime()</syntax>
+</function>
+<function returnType="string">
+<id>CURRENTUSER</id>
+<name>CurrentUser</name>
+<description>Returns the InfoView logon of the current user</description>
+<syntax>string CurrentUser()</syntax>
+</function>
+<function returnType="undefined">
+<id>DATAPROVIDER</id>
+<name>DataProvider</name>
+<description>
+Returns the name of the data provider containing a report object
+</description>
+<syntax>string DataProvider(obj)</syntax>
+</function>
+<function returnType="undefined">
+<id>DATAPROVIDERKEYDATE</id>
+<name>DataProviderKeyDate</name>
+<description>Returns the keydate of a data provider</description>
+<syntax>date DataProviderKeyDate(dp)</syntax>
+</function>
+<function returnType="undefined">
+<id>DATAPROVIDERKEYDATECAPTION</id>
+<name>DataProviderKeyDateCaption</name>
+<description>Returns the keydate caption of a data provider</description>
+<syntax>string DataProviderKeyDateCaption(dp)</syntax>
+</function>
+<function returnType="string">
+<id>DATAPROVIDERSQL</id>
+<name>DataProviderSQL</name>
+<description>Returns the SQL generated by a data provider</description>
+<syntax>string DataProviderSQL(dp)</syntax>
+</function>
+<function returnType="undefined">
+<id>DATAPROVIDERTYPE</id>
+<name>DataProviderType</name>
+<description>Returns the type of a data provider</description>
+<syntax>string DataProviderType(dp)</syntax>
+</function>
+<function returnType="string">
+<id>DAYNAME</id>
+<name>DayName</name>
+<description>Returns the day name in a date</description>
+<syntax>string DayName(date)</syntax>
+</function>
+<function returnType="number">
+<id>DAYNUMBEROFMONTH</id>
+<name>DayNumberOfMonth</name>
+<description>Returns the day number in a month</description>
+<syntax>int DayNumberOfMonth(date)</syntax>
+</function>
+<function returnType="number">
+<id>DAYNUMBEROFWEEK</id>
+<name>DayNumberOfWeek</name>
+<description>Returns the day number in a week</description>
+<syntax>int DayNumberOfWeek(date)</syntax>
+</function>
+<function returnType="number">
+<id>DAYNUMBEROFYEAR</id>
+<name>DayNumberOfYear</name>
+<description>Returns the day number in a year</description>
+<syntax>int DayNumberOfYear(date)</syntax>
+</function>
+<function returnType="number">
+<id>DAYSBETWEEN</id>
+<name>DaysBetween</name>
+<description>Returns the number of days between two dates</description>
+<syntax>int DaysBetween(first_date;last_date)</syntax>
+</function>
+<function returnType="string">
+<id>DEPTH</id>
+<name>Depth</name>
+<description>Returns the depth of a member in a hierarchy</description>
+<syntax>int [member].Depth</syntax>
+</function>
+<function returnType="string">
+<id>DESCENDANTS</id>
+<name>Descendants</name>
+<description>Returns descendant members of a member</description>
+<syntax>
+member_set Descendants(member;[level|distance];[desc_flag])
+</syntax>
+</function>
+<function returnType="string">
+<id>DOCUMENTAUTHOR</id>
+<name>DocumentAuthor</name>
+<description>Returns the InfoView logon of the document creator</description>
+<syntax>string DocumentAuthor()</syntax>
+</function>
+<function returnType="date">
+<id>DOCUMENTCREATIONDATE</id>
+<name>DocumentCreationDate</name>
+<description>Returns the date on which a document was created</description>
+<syntax>date DocumentCreationDate()</syntax>
+</function>
+<function returnType="date">
+<id>DOCUMENTCREATIONTIME</id>
+<name>DocumentCreationTime</name>
+<description>Returns the time when a document was created</description>
+<syntax>time DocumentCreationTime()</syntax>
+</function>
+<function returnType="date">
+<id>DOCUMENTDATE</id>
+<name>DocumentDate</name>
+<description>
+Returns the date on which a document was last saved
+</description>
+<syntax>date DocumentDate()</syntax>
+</function>
+<function returnType="string">
+<id>DOCUMENTNAME</id>
+<name>DocumentName</name>
+<description>Returns the document name</description>
+<syntax>string DocumentName()</syntax>
+</function>
+<function returnType="string">
+<id>DOCUMENTOWNER</id>
+<name>DocumentOwner</name>
+<description>
+Returns the InfoView logon or name of the person who last saved the document
+</description>
+<syntax>string DocumentOwner()</syntax>
+</function>
+<function returnType="bool">
+<id>DOCUMENTPARTIALLYREFRESHED</id>
+<name>DocumentPartiallyRefreshed</name>
+<description>
+Determines whether a document is fully or partially refreshed
+</description>
+<syntax>bool DocumentPartiallyRefreshed()</syntax>
+</function>
+<function returnType="time">
+<id>DOCUMENTTIME</id>
+<name>DocumentTime</name>
+<description>Returns the time when a document was last saved</description>
+<syntax>time DocumentTime()</syntax>
+</function>
+<function returnType="string">
+<id>DRILLFILTERS</id>
+<name>DrillFilters</name>
+<description>
+Returns the drill filters applied to a document or object in drill mode
+</description>
+<syntax>string DrillFilters([obj|separator])</syntax>
+</function>
+<function returnType="undefined">
+<id>ELSE</id>
+<name>Else</name>
+<description>
+Returns a value from the If function when the test expression is false
+</description>
+<syntax>Else false_value</syntax>
+</function>
+<function returnType="undefined">
+<id>ELSEIF</id>
+<name>ElseIf</name>
+<description>Nests an If function in another If function</description>
+<syntax>ElseIf test_value</syntax>
+</function>
+<function returnType="number">
+<id>EUROCONVERTFROM</id>
+<name>EuroConvertFrom</name>
+<description>Converts a euro amount to another currency</description>
+<syntax>
+num EuroConvertFrom(euro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function returnType="number">
+<id>EUROCONVERTTO</id>
+<name>EuroConvertTo</name>
+<description>Converts an amount to euros</description>
+<syntax>
+num EuroConvertTo(noneuro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function returnType="number">
+<id>EUROFROMROUNDERROR</id>
+<name>EuroFromRoundError</name>
+<description>
+Returns the rounding error in a conversion from euros
+</description>
+<syntax>
+num EuroFromRoundError(euro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function returnType="number">
+<id>EUROTOROUNDERROR</id>
+<name>EuroToRoundError</name>
+<description>
+Returns the rounding error in a conversion to euros
+</description>
+<syntax>
+num EuroToRoundError(noneuro_amount;curr_code;round_level)
+</syntax>
+</function>
+<function returnType="bool">
+<id>EVEN</id>
+<name>Even</name>
+<description>Determines whether a number is even</description>
+<syntax>bool Even(number)</syntax>
+</function>
+<function returnType="number">
+<id>EXP</id>
+<name>Exp</name>
+<description>Returns an exponential (e raised to a power)</description>
+<syntax>num Exp(number)</syntax>
+</function>
+<function returnType="number">
+<id>FACT</id>
+<name>Fact</name>
+<description>Returns the factorial of an integer</description>
+<syntax>num Fact(number)</syntax>
+</function>
+<function returnType="string">
+<id>FILL</id>
+<name>Fill</name>
+<description>Builds a string by repeating a string n times</description>
+<syntax>string Fill(repeating_string;num_repeats)</syntax>
+</function>
+<function returnType="number">
+<id>FIRST</id>
+<name>First</name>
+<description>Returns the first value in a dimension or measure</description>
+<syntax>input_type First(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>FLOOR</id>
+<name>Floor</name>
+<description>Rounds a number down to the nearest integer</description>
+<syntax>int Floor(number)</syntax>
+</function>
+<function returnType="any">
+<id>FORCEMERGE</id>
+<name>ForceMerge</name>
+<description>
+Includes synchronized dimensions in measure calculations when the dimensions are not in the calculation context
+</description>
+<syntax>num ForceMerge(number)</syntax>
+</function>
+<function returnType="string">
+<id>FORMATDATE</id>
+<name>FormatDate</name>
+<description>Formats a date according to a specified format</description>
+<syntax>string FormatDate(date;format_string)</syntax>
+</function>
+<function returnType="string">
+<id>FORMATNUMBER</id>
+<name>FormatNumber</name>
+<description>Formats a number according to a specified format</description>
+<syntax>string FormatNumber(number;format_string)</syntax>
+</function>
+<function returnType="string">
+<id>GETCONTENTLOCALE</id>
+<name>GetContentLocale</name>
+<description>
+Returns the locale of the data contained in the document (the Document Locale)
+</description>
+<syntax>string GetContentLocale()</syntax>
+</function>
+<function returnType="string">
+<id>GETDOMINANTPREFERREDVIEWINGLOCALE</id>
+<name>GetDominantPreferredViewingLocale</name>
+<description>
+Returns the dominant locale in the user's Preferred Viewing Locale group.
+</description>
+<syntax>string GetDominantPreferredViewingLocale()</syntax>
+</function>
+<function returnType="string">
+<id>GETLOCALE</id>
+<name>GetLocale</name>
+<description>
+Returns the user's locale used to format the interface (the Product Locale)
+</description>
+<syntax>string GetLocale()</syntax>
+</function>
+<function returnType="string">
+<id>GETLOCALIZED</id>
+<name>GetLocalized</name>
+<description>
+Returns a string localized according to the user's Preferred Viewing Locale
+</description>
+<syntax>string GetLocalized(string[;comment])</syntax>
+</function>
+<function returnType="string">
+<id>GETPREFERREDVIEWINGLOCALE</id>
+<name>GetPreferredViewingLocale</name>
+<description>
+Returns the user's preferred locale for viewing document data (the Preferred Viewing Locale)
+</description>
+<syntax>string GetPreferredViewingLocale()</syntax>
+</function>
+<function returnType="string">
+<id>HTMLENCODE</id>
+<name>HTMLEncode</name>
+<description>Applies HTML encoding rules to a string</description>
+<syntax>string HTMLEncode(html)</syntax>
+</function>
+<function returnType="undefined">
+<id>IF</id>
+<name>If</name>
+<description>
+Returns a value based on whether an expression is true or false
+</description>
+<syntax>If bool_value Then true_value [Else false_value]</syntax>
+</function>
+<function returnType="string">
+<id>INITCAP</id>
+<name>InitCap</name>
+<description>Capitalizes the first letter of a string</description>
+<syntax>string InitCap(string)</syntax>
+</function>
+<function returnType="number">
+<id>INTERPOLATION</id>
+<name>Interpolation</name>
+<description>Calculates empty measure values by interpolation</description>
+<syntax>
+num Interpolation(measure[;PointToPoint|Linear][;NotOnBreak][;Row|Col])
+</syntax>
+</function>
+<function returnType="bool">
+<id>ISDATE</id>
+<name>IsDate</name>
+<description>Determines whether a value is a date</description>
+<syntax>bool IsDate(obj)</syntax>
+</function>
+<function returnType="bool">
+<id>ISERROR</id>
+<name>IsError</name>
+<description>Determines whether an object returns an error</description>
+<syntax>bool IsError(obj)</syntax>
+</function>
+<function returnType="string">
+<id>ISLEAF</id>
+<name>IsLeaf</name>
+<description>Determines whether a member is a leaf member</description>
+<syntax>bool member.IsLeaf</syntax>
+</function>
+<function returnType="bool">
+<id>ISLOGICAL</id>
+<name>IsLogical</name>
+<description>Determines whether a value is boolean</description>
+<syntax>bool IsLogical(obj)</syntax>
+</function>
+<function returnType="bool">
+<id>ISNULL</id>
+<name>IsNull</name>
+<description>Determines whether a value is null</description>
+<syntax>bool IsNull(obj)</syntax>
+</function>
+<function returnType="bool">
+<id>ISNUMBER</id>
+<name>IsNumber</name>
+<description>Determines whether a value is a number</description>
+<syntax>bool IsNumber(obj)</syntax>
+</function>
+<function returnType="undefined">
+<id>ISPROMPTANSWERED</id>
+<name>IsPromptAnswered</name>
+<description>Determines whether a prompt has been answered</description>
+<syntax>bool IsPromptAnswered([dp;]prompt_string)</syntax>
+</function>
+<function returnType="bool">
+<id>ISSTRING</id>
+<name>IsString</name>
+<description>Determines whether a value is a string</description>
+<syntax>bool IsString(obj)</syntax>
+</function>
+<function returnType="bool">
+<id>ISTIME</id>
+<name>IsTime</name>
+<description>Determines whether a value is a time</description>
+<syntax>bool IsTime(obj)</syntax>
+</function>
+<function returnType="string">
+<id>KEY</id>
+<name>Key</name>
+<description>Returns the key of a member</description>
+<syntax>string member.Key</syntax>
+</function>
+<function returnType="string">
+<id>LAG</id>
+<name>Lag</name>
+<description>
+Returns the member a given distance before a member
+</description>
+<syntax>member Lag(distance)</syntax>
+</function>
+<function returnType="number">
+<id>LAST</id>
+<name>Last</name>
+<description>Returns the last value in a dimension or measure</description>
+<syntax>input_type Last(dimension|measure)</syntax>
+</function>
+<function returnType="date">
+<id>LASTDAYOFMONTH</id>
+<name>LastDayOfMonth</name>
+<description>Returns the date of the last day in a month</description>
+<syntax>date LastDayOfMonth(date)</syntax>
+</function>
+<function returnType="date">
+<id>LASTDAYOFWEEK</id>
+<name>LastDayOfWeek</name>
+<description>Returns the date of the last day in a week</description>
+<syntax>date LastDayOfWeek(date)</syntax>
+</function>
+<function returnType="date">
+<id>LASTEXECUTIONDATE</id>
+<name>LastExecutionDate</name>
+<description>
+Returns the date on which a data provider was last refreshed
+</description>
+<syntax>date LastExecutionDate([dp])</syntax>
+</function>
+<function returnType="date">
+<id>LASTEXECUTIONDURATION</id>
+<name>LastExecutionDuration</name>
+<description>
+Returns the time in seconds taken by the last refresh of a data provider
+</description>
+<syntax>int LastExecutionDuration([dp])</syntax>
+</function>
+<function returnType="time">
+<id>LASTEXECUTIONTIME</id>
+<name>LastExecutionTime</name>
+<description>
+Returns the time at which a data provider was last refreshed
+</description>
+<syntax>time LastExecutionTime([dp])</syntax>
+</function>
+<function returnType="string">
+<id>LEFT</id>
+<name>Left</name>
+<description>Returns the first characters of a string</description>
+<syntax>string Left(string;num_chars)</syntax>
+</function>
+<function returnType="string">
+<id>LEFTPAD</id>
+<name>LeftPad</name>
+<description>Pads the beginning of a string with another string</description>
+<syntax>string LeftPad(padded_string;length;left_string)</syntax>
+</function>
+<function returnType="string">
+<id>LEFTTRIM</id>
+<name>LeftTrim</name>
+<description>Trims the leading spaces from a string</description>
+<syntax>string LeftTrim(trimmed_string)</syntax>
+</function>
+<function returnType="number">
+<id>LENGTH</id>
+<name>Length</name>
+<description>Returns the number of characters in a string</description>
+<syntax>int Length(string)</syntax>
+</function>
+<function returnType="number">
+<id>LINENUMBER</id>
+<name>LineNumber</name>
+<description>Returns the line number in a block</description>
+<syntax>int LineNumber()</syntax>
+</function>
+<function returnType="number">
+<id>LN</id>
+<name>Ln</name>
+<description>Returns the natural logarithm of a number</description>
+<syntax>num Ln(number)</syntax>
+</function>
+<function returnType="number">
+<id>LOG</id>
+<name>Log</name>
+<description>Returns the base n logarithm of a number</description>
+<syntax>num Log(number;base)</syntax>
+</function>
+<function returnType="number">
+<id>LOG10</id>
+<name>Log10</name>
+<description>Returns the base 10 logarithm of a number</description>
+<syntax>num Log10(number)</syntax>
+</function>
+<function returnType="string">
+<id>LOWER</id>
+<name>Lower</name>
+<description>Converts a string to lower case</description>
+<syntax>string Lower(string)</syntax>
+</function>
+<function returnType="bool">
+<id>MATCH</id>
+<name>Match</name>
+<description>Determines whether a string matches a pattern</description>
+<syntax>bool Match(test_string;pattern)</syntax>
+</function>
+<function returnType="number">
+<id>MAX</id>
+<name>Max</name>
+<description>
+Returns the largest value in a dimension or measure
+</description>
+<syntax>input_type Max(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>MEDIAN</id>
+<name>Median</name>
+<description>Returns the median (middle value) of a measure</description>
+<syntax>num Median(measure)</syntax>
+</function>
+<function returnType="number">
+<id>MIN</id>
+<name>Min</name>
+<description>
+Returns the smallest value in a dimension or measure
+</description>
+<syntax>input_type Min(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>MOD</id>
+<name>Mod</name>
+<description>
+Returns the remainder from the division of two numbers
+</description>
+<syntax>num Mod(dividend;divisor)</syntax>
+</function>
+<function returnType="number">
+<id>MODE</id>
+<name>Mode</name>
+<description>
+Returns the most frequently-occurring value in a dimension or measure
+</description>
+<syntax>input_type Mode(dimension|measure)</syntax>
+</function>
+<function returnType="string">
+<id>MONTH</id>
+<name>Month</name>
+<description>Returns the month name in a date</description>
+<syntax>string Month(date)</syntax>
+</function>
+<function returnType="number">
+<id>MONTHNUMBEROFYEAR</id>
+<name>MonthNumberOfYear</name>
+<description>Returns the month number in a date</description>
+<syntax>int MonthNumberOfYear(date)</syntax>
+</function>
+<function returnType="number">
+<id>MONTHSBETWEEN</id>
+<name>MonthsBetween</name>
+<description>Returns the number of months between two dates</description>
+<syntax>int MonthsBetween(first_date;last_date)</syntax>
+</function>
+<function returnType="string">
+<id>NAMEOF</id>
+<name>NameOf</name>
+<description>Returns the name of an object</description>
+<syntax>string NameOf(obj)</syntax>
+</function>
+<function returnType="any">
+<id>NOFILTER</id>
+<name>NoFilter</name>
+<description>Ignores filters when calculating a value</description>
+<syntax>input_type NoFilter(obj[;All|Drill])</syntax>
+</function>
+<function returnType="number">
+<id>NUMBEROFDATAPROVIDERS</id>
+<name>NumberOfDataProviders</name>
+<description>Returns the number of data providers in a report</description>
+<syntax>int NumberOfDataProviders()</syntax>
+</function>
+<function returnType="number">
+<id>NUMBEROFPAGES</id>
+<name>NumberOfPages</name>
+<description>Returns the number of pages in a report</description>
+<syntax>int NumberOfPages()</syntax>
+</function>
+<function returnType="number">
+<id>NUMBEROFROWS</id>
+<name>NumberOfRows</name>
+<description>Returns the number of rows in a data provider</description>
+<syntax>int NumberOfRows([dp])</syntax>
+</function>
+<function returnType="bool">
+<id>ODD</id>
+<name>Odd</name>
+<description>Determines whether a number is odd</description>
+<syntax>bool Odd(number)</syntax>
+</function>
+<function returnType="number">
+<id>PAGE</id>
+<name>Page</name>
+<description>Returns the current page number in a report</description>
+<syntax>int Page()</syntax>
+</function>
+<function returnType="string">
+<id>PARENT</id>
+<name>Parent</name>
+<description>Returns the parent member of a member</description>
+<syntax>member member.Parent</syntax>
+</function>
+<function returnType="number">
+<id>PERCENTAGE</id>
+<name>Percentage</name>
+<description>
+Expresses a measure value as a percentage of its embedding context
+</description>
+<syntax>num Percentage(measure[;Break][;Row|Col]) </syntax>
+</function>
+<function returnType="number">
+<id>PERCENTILE</id>
+<name>Percentile</name>
+<description>Returns the nth percentile of a measure</description>
+<syntax>num Percentile(measure;percentage)</syntax>
+</function>
+<function returnType="number">
+<id>POS</id>
+<name>Pos</name>
+<description>
+Returns the starting position of a text pattern in a string
+</description>
+<syntax>int Pos(test_string;pattern)</syntax>
+</function>
+<function returnType="number">
+<id>POWER</id>
+<name>Power</name>
+<description>Returns a number raised to a power</description>
+<syntax>num Power(number;power)</syntax>
+</function>
+<function returnType="undefined">
+<id>PREVIOUS</id>
+<name>Previous</name>
+<description>Returns a previous value of an object</description>
+<syntax>
+input_type Previous(dimension|measure|Self[;reset_dims][;offset][;NoNull])
+</syntax>
+</function>
+<function returnType="number">
+<id>PRODUCT</id>
+<name>Product</name>
+<description>Multiplies the values of a measure</description>
+<syntax>num Product(measure)</syntax>
+</function>
+<function returnType="string">
+<id>PROMPTSUMMARY</id>
+<name>PromptSummary</name>
+<description>
+Returns the prompt text and user response of all prompts in a document
+</description>
+<syntax>string PromptSummary()</syntax>
+</function>
+<function returnType="number">
+<id>QUARTER</id>
+<name>Quarter</name>
+<description>Returns the quarter number in a date</description>
+<syntax>int Quarter(date)</syntax>
+</function>
+<function returnType="string">
+<id>QUERYSUMMARY</id>
+<name>QuerySummary</name>
+<description>
+Returns information about the queries in a document
+</description>
+<syntax>string QuerySummary([dp])</syntax>
+</function>
+<function returnType="number">
+<id>RANK</id>
+<name>Rank</name>
+<description>Ranks a measure by dimensions</description>
+<syntax>
+int Rank(measure[;ranking_dims][;Top|Bottom][;reset_dims])
+</syntax>
+</function>
+<function returnType="any">
+<id>REFVALUE</id>
+<name>RefValue</name>
+<description>
+Returns the reference value of a report object when data tracking is activated
+</description>
+<syntax>input_type RefValue(obj)</syntax>
+</function>
+<function returnType="time">
+<id>REFVALUEDATE</id>
+<name>RefValueDate</name>
+<description>
+Returns the date of the reference data used for data tracking
+</description>
+<syntax>date RefValueDate()</syntax>
+</function>
+<function returnType="string">
+<id>REFVALUEUSERRESPONSE</id>
+<name>RefValueUserResponse</name>
+<description>
+Returns the response to a prompt when the reference data was the current data
+</description>
+<syntax>
+string RefValueUserResponse([dp;]prompt_string[;Index])
+</syntax>
+</function>
+<function returnType="number">
+<id>RELATIVEDATE</id>
+<name>RelativeDate</name>
+<description>Returns a date relative to another date</description>
+<syntax>date RelativeDate(start_date;num_days)</syntax>
+</function>
+<function returnType="undefined">
+<id>RELATIVEVALUE</id>
+<name>RelativeValue</name>
+<description>
+Returns previous or subsequent values of a dimension or measure
+</description>
+<syntax>
+input_type RelativeValue(dimension|measure;slicing_dims;offset)
+</syntax>
+</function>
+<function returnType="string">
+<id>REPLACE</id>
+<name>Replace</name>
+<description>Replaces a part of a string with another string</description>
+<syntax>
+string Replace(replace_in;replaced_string;replace_with)
+</syntax>
+</function>
+<function returnType="string">
+<id>REPORTFILTER</id>
+<name>ReportFilter</name>
+<description>Returns the report filters applied to an object</description>
+<syntax>string ReportFilter(obj)</syntax>
+</function>
+<function returnType="string">
+<id>REPORTFILTERSUMMARY</id>
+<name>ReportFilterSummary</name>
+<description>
+Returns a summary of the report filters in a document or report
+</description>
+<syntax>string ReportFilterSummary(report_name)</syntax>
+</function>
+<function returnType="string">
+<id>REPORTNAME</id>
+<name>ReportName</name>
+<description>Returns the name of a report</description>
+<syntax>string ReportName()</syntax>
+</function>
+<function returnType="string">
+<id>RIGHT</id>
+<name>Right</name>
+<description>Returns the last characters of a string</description>
+<syntax>string Right(string;num_chars)</syntax>
+</function>
+<function returnType="string">
+<id>RIGHTPAD</id>
+<name>RightPad</name>
+<description>Pads the end of a string with another string</description>
+<syntax>string RightPad(padded_string;length;right_string)</syntax>
+</function>
+<function returnType="string">
+<id>RIGHTTRIM</id>
+<name>RightTrim</name>
+<description>Trims the trailing spaces from a string</description>
+<syntax>string RightTrim(trimmed_string)</syntax>
+</function>
+<function returnType="number">
+<id>ROUND</id>
+<name>Round</name>
+<description>Rounds a number </description>
+<syntax>num Round(number;round_level)</syntax>
+</function>
+<function returnType="number">
+<id>ROWINDEX</id>
+<name>RowIndex</name>
+<description>Returns the row number in a table</description>
+<syntax>int RowIndex()</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGAVERAGE</id>
+<name>RunningAverage</name>
+<description>Returns the running average of a measure</description>
+<syntax>
+num RunningAverage(measure[;Row|Col][;IncludeEmpty][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGCOUNT</id>
+<name>RunningCount</name>
+<description>
+Returns the running count of a dimension or measure
+</description>
+<syntax>
+int RunningCount(dimension|measure[;Row|Col][;IncludeEmpty][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGMAX</id>
+<name>RunningMax</name>
+<description>
+Returns the running maximum of a dimension or measure
+</description>
+<syntax>
+input_type RunningMax(dimension|measure[;Row|Col][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGMIN</id>
+<name>RunningMin</name>
+<description>
+Returns the running minimum of a dimension or measure
+</description>
+<syntax>
+input_type RunningMin(dimension|measure[;Row|Col][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGPRODUCT</id>
+<name>RunningProduct</name>
+<description>Returns the running product of a measure</description>
+<syntax>num RunningProduct(measure[;Row|Col][;reset_dims])</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGSUM</id>
+<name>RunningSum</name>
+<description>Returns the running sum of a measure</description>
+<syntax>num RunningSum(measure[;Row|Col][;reset_dims])</syntax>
+</function>
+<function returnType="undefined">
+<id>SERVERVALUE</id>
+<name>ServerValue</name>
+<description>
+Returns the value of a measure calculated by the database.
+</description>
+<syntax>ServerValue([measure])</syntax>
+</function>
+<function returnType="string">
+<id>SIBLINGS</id>
+<name>Siblings</name>
+<description>Returns the sibling members of a member</description>
+<syntax>member_set member.Siblings</syntax>
+</function>
+<function returnType="number">
+<id>SIGN</id>
+<name>Sign</name>
+<description>Returns the sign of a number</description>
+<syntax>int Sign(number)</syntax>
+</function>
+<function returnType="number">
+<id>SIN</id>
+<name>Sin</name>
+<description>Returns the sine of an angle</description>
+<syntax>num Sin(number)</syntax>
+</function>
+<function returnType="number">
+<id>SQRT</id>
+<name>Sqrt</name>
+<description>Returns the square root of a number</description>
+<syntax>num Sqrt(number)</syntax>
+</function>
+<function returnType="number">
+<id>STDDEV</id>
+<name>StdDev</name>
+<description>Returns the standard deviation of a measure</description>
+<syntax>num StdDev(measure)</syntax>
+</function>
+<function returnType="number">
+<id>STDDEVP</id>
+<name>StdDevP</name>
+<description>
+Returns the population standard deviation of a measure
+</description>
+<syntax>num StdDevP(measure)</syntax>
+</function>
+<function returnType="string">
+<id>SUBSTR</id>
+<name>Substr</name>
+<description>Returns part of a string</description>
+<syntax>string Substr(string;start;length)</syntax>
+</function>
+<function returnType="number">
+<id>SUM</id>
+<name>Sum</name>
+<description>Returns the sum of a measure</description>
+<syntax>num Sum(measure)</syntax>
+</function>
+<function returnType="number">
+<id>TAN</id>
+<name>Tan</name>
+<description>Returns the tangent of an angle</description>
+<syntax>num Tan(number)</syntax>
+</function>
+<function returnType="undefined">
+<id>THEN</id>
+<name>Then</name>
+<description>
+Returns a value from the If function when the test expression is true
+</description>
+<syntax>Then true_value</syntax>
+</function>
+<function returnType="undefined">
+<id>TIMEDIM</id>
+<name>TimeDim</name>
+<description>Create a contigous and continous time axis.</description>
+<syntax>date TimeDim(date;period)</syntax>
+</function>
+<function returnType="date">
+<id>TODATE</id>
+<name>ToDate</name>
+<description>
+Returns a date from a date as string according to a date format
+</description>
+<syntax>date ToDate(date_string;format)</syntax>
+</function>
+<function returnType="number">
+<id>TONUMBER</id>
+<name>ToNumber</name>
+<description>Returns a string as a number</description>
+<syntax>num ToNumber(string)</syntax>
+</function>
+<function returnType="string">
+<id>TRIM</id>
+<name>Trim</name>
+<description>
+Removes the leading and trailing blanks from a string
+</description>
+<syntax>string Trim(string)</syntax>
+</function>
+<function returnType="number">
+<id>TRUNCATE</id>
+<name>Truncate</name>
+<description>Truncates a number</description>
+<syntax>num Truncate(number;truncate_level)</syntax>
+</function>
+<function returnType="string">
+<id>UNIQUENAMEOF</id>
+<name>UniqueNameOf</name>
+<description>Returns the unique name of an object</description>
+<syntax>string UniqueNameOf(obj)</syntax>
+</function>
+<function returnType="string">
+<id>UNIVERSENAME</id>
+<name>UniverseName</name>
+<description>
+Returns the name of the universe on which a data provider is based
+</description>
+<syntax>string UniverseName(dp)</syntax>
+</function>
+<function returnType="string">
+<id>UPPER</id>
+<name>Upper</name>
+<description>Converts a string to upper case</description>
+<syntax>string Upper(string)</syntax>
+</function>
+<function returnType="string">
+<id>URLENCODE</id>
+<name>URLEncode</name>
+<description>Applies URL encoding rules to a string</description>
+<syntax>string UrlEncode(html)</syntax>
+</function>
+<function returnType="string">
+<id>USERRESPONSE</id>
+<name>UserResponse</name>
+<description>Returns the response to a prompt</description>
+<syntax>string UserResponse([dp;]prompt_string[;Index])</syntax>
+</function>
+<function returnType="number">
+<id>VAR</id>
+<name>Var</name>
+<description>Returns the variance of a measure</description>
+<syntax>num Var(measure)</syntax>
+</function>
+<function returnType="number">
+<id>VARP</id>
+<name>VarP</name>
+<description>Returns the population variance of a measure</description>
+<syntax>num VarP(measure)</syntax>
+</function>
+<function returnType="number">
+<id>WEEK</id>
+<name>Week</name>
+<description>Returns the week number in the year</description>
+<syntax>int Week(date)</syntax>
+</function>
+<function returnType="string">
+<id>WORDCAP</id>
+<name>WordCap</name>
+<description>
+Capitalizes the first letter of all the words in a string
+</description>
+<syntax>string WordCap(string)</syntax>
+</function>
+<function returnType="number">
+<id>YEAR</id>
+<name>Year</name>
+<description>Returns the year in a date</description>
+<syntax>int Year(date)</syntax>
+</function>
+<function returnType="number">
+<id>AGGREGATE</id>
+<name>Aggregate</name>
+<description>Returns the default aggregation of a measure.</description>
+<syntax>num Aggregate(measure,set)</syntax>
+</function>
+<function returnType="number">
+<id>AVERAGE</id>
+<name>Average</name>
+<description>Returns the average value of a measure</description>
+<syntax>num Average(measure[;IncludeEmpty])</syntax>
+</function>
+<function returnType="number">
+<id>COUNT</id>
+<name>Count</name>
+<description>
+Returns the number of values in a dimension or measure
+</description>
+<syntax>int Count(obj[;IncludeEmpty][;Distinct|All])</syntax>
+</function>
+<function returnType="number">
+<id>FIRST</id>
+<name>First</name>
+<description>Returns the first value in a dimension or measure</description>
+<syntax>input_type First(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>INTERPOLATION</id>
+<name>Interpolation</name>
+<description>Calculates empty measure values by interpolation</description>
+<syntax>
+num Interpolation(measure[;PointToPoint|Linear][;NotOnBreak][;Row|Col])
+</syntax>
+</function>
+<function returnType="number">
+<id>LAST</id>
+<name>Last</name>
+<description>Returns the last value in a dimension or measure</description>
+<syntax>input_type Last(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>MAX</id>
+<name>Max</name>
+<description>
+Returns the largest value in a dimension or measure
+</description>
+<syntax>input_type Max(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>MEDIAN</id>
+<name>Median</name>
+<description>Returns the median (middle value) of a measure</description>
+<syntax>num Median(measure)</syntax>
+</function>
+<function returnType="number">
+<id>MIN</id>
+<name>Min</name>
+<description>
+Returns the smallest value in a dimension or measure
+</description>
+<syntax>input_type Min(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>MODE</id>
+<name>Mode</name>
+<description>
+Returns the most frequently-occurring value in a dimension or measure
+</description>
+<syntax>input_type Mode(dimension|measure)</syntax>
+</function>
+<function returnType="number">
+<id>PERCENTAGE</id>
+<name>Percentage</name>
+<description>
+Expresses a measure value as a percentage of its embedding context
+</description>
+<syntax>num Percentage(measure[;Break][;Row|Col]) </syntax>
+</function>
+<function returnType="number">
+<id>PERCENTILE</id>
+<name>Percentile</name>
+<description>Returns the nth percentile of a measure</description>
+<syntax>num Percentile(measure;percentage)</syntax>
+</function>
+<function returnType="number">
+<id>PRODUCT</id>
+<name>Product</name>
+<description>Multiplies the values of a measure</description>
+<syntax>num Product(measure)</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGAVERAGE</id>
+<name>RunningAverage</name>
+<description>Returns the running average of a measure</description>
+<syntax>
+num RunningAverage(measure[;Row|Col][;IncludeEmpty][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGCOUNT</id>
+<name>RunningCount</name>
+<description>
+Returns the running count of a dimension or measure
+</description>
+<syntax>
+int RunningCount(dimension|measure[;Row|Col][;IncludeEmpty][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGMAX</id>
+<name>RunningMax</name>
+<description>
+Returns the running maximum of a dimension or measure
+</description>
+<syntax>
+input_type RunningMax(dimension|measure[;Row|Col][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGMIN</id>
+<name>RunningMin</name>
+<description>
+Returns the running minimum of a dimension or measure
+</description>
+<syntax>
+input_type RunningMin(dimension|measure[;Row|Col][;reset_dims])
+</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGPRODUCT</id>
+<name>RunningProduct</name>
+<description>Returns the running product of a measure</description>
+<syntax>num RunningProduct(measure[;Row|Col][;reset_dims])</syntax>
+</function>
+<function returnType="number">
+<id>RUNNINGSUM</id>
+<name>RunningSum</name>
+<description>Returns the running sum of a measure</description>
+<syntax>num RunningSum(measure[;Row|Col][;reset_dims])</syntax>
+</function>
+<function returnType="number">
+<id>STDDEV</id>
+<name>StdDev</name>
+<description>Returns the standard deviation of a measure</description>
+<syntax>num StdDev(measure)</syntax>
+</function>
+<function returnType="number">
+<id>STDDEVP</id>
+<name>StdDevP</name>
+<description>
+Returns the population standard deviation of a measure
+</description>
+<syntax>num StdDevP(measure)</syntax>
+</function>
+<function returnType="number">
+<id>SUM</id>
+<name>Sum</name>
+<description>Returns the sum of a measure</description>
+<syntax>num Sum(measure)</syntax>
+</function>
+<function returnType="number">
+<id>VAR</id>
+<name>Var</name>
+<description>Returns the variance of a measure</description>
+<syntax>num Var(measure)</syntax>
+</function>
+<function returnType="number">
+<id>VARP</id>
+<name>VarP</name>
+<description>Returns the population variance of a measure</description>
+<syntax>num VarP(measure)</syntax>
+</function>
+<function category="Character" returnType="number">
+<id>ASC</id>
+<name>Asc</name>
+<description>Returns the ASCII value of a character</description>
+<syntax>int Asc(string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>CHAR</id>
+<name>Char</name>
+<description>
+Returns the character associated with an ASCII code
+</description>
+<syntax>string Char(ascii_code)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>CONCATENATION</id>
+<name>Concatenation</name>
+<description>Concatenates (joins) two strings</description>
+<syntax>string Concatenation(first_string;second_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>FILL</id>
+<name>Fill</name>
+<description>Builds a string by repeating a string n times</description>
+<syntax>string Fill(repeating_string;num_repeats)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>FORMATDATE</id>
+<name>FormatDate</name>
+<description>Formats a date according to a specified format</description>
+<syntax>string FormatDate(date;format_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>FORMATNUMBER</id>
+<name>FormatNumber</name>
+<description>Formats a number according to a specified format</description>
+<syntax>string FormatNumber(number;format_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>HTMLENCODE</id>
+<name>HTMLEncode</name>
+<description>Applies HTML encoding rules to a string</description>
+<syntax>string HTMLEncode(html)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>INITCAP</id>
+<name>InitCap</name>
+<description>Capitalizes the first letter of a string</description>
+<syntax>string InitCap(string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>LEFT</id>
+<name>Left</name>
+<description>Returns the first characters of a string</description>
+<syntax>string Left(string;num_chars)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>LEFTPAD</id>
+<name>LeftPad</name>
+<description>Pads the beginning of a string with another string</description>
+<syntax>string LeftPad(padded_string;length;left_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>LEFTTRIM</id>
+<name>LeftTrim</name>
+<description>Trims the leading spaces from a string</description>
+<syntax>string LeftTrim(trimmed_string)</syntax>
+</function>
+<function category="Character" returnType="number">
+<id>LENGTH</id>
+<name>Length</name>
+<description>Returns the number of characters in a string</description>
+<syntax>int Length(string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>LOWER</id>
+<name>Lower</name>
+<description>Converts a string to lower case</description>
+<syntax>string Lower(string)</syntax>
+</function>
+<function category="Character" returnType="bool">
+<id>MATCH</id>
+<name>Match</name>
+<description>Determines whether a string matches a pattern</description>
+<syntax>bool Match(test_string;pattern)</syntax>
+</function>
+<function category="Character" returnType="number">
+<id>POS</id>
+<name>Pos</name>
+<description>
+Returns the starting position of a text pattern in a string
+</description>
+<syntax>int Pos(test_string;pattern)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>REPLACE</id>
+<name>Replace</name>
+<description>Replaces a part of a string with another string</description>
+<syntax>
+string Replace(replace_in;replaced_string;replace_with)
+</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>RIGHT</id>
+<name>Right</name>
+<description>Returns the last characters of a string</description>
+<syntax>string Right(string;num_chars)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>RIGHTPAD</id>
+<name>RightPad</name>
+<description>Pads the end of a string with another string</description>
+<syntax>string RightPad(padded_string;length;right_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>RIGHTTRIM</id>
+<name>RightTrim</name>
+<description>Trims the trailing spaces from a string</description>
+<syntax>string RightTrim(trimmed_string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>SUBSTR</id>
+<name>Substr</name>
+<description>Returns part of a string</description>
+<syntax>string Substr(string;start;length)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>TRIM</id>
+<name>Trim</name>
+<description>
+Removes the leading and trailing blanks from a string
+</description>
+<syntax>string Trim(string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>UPPER</id>
+<name>Upper</name>
+<description>Converts a string to upper case</description>
+<syntax>string Upper(string)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>URLENCODE</id>
+<name>URLEncode</name>
+<description>Applies URL encoding rules to a string</description>
+<syntax>string UrlEncode(html)</syntax>
+</function>
+<function category="Character" returnType="string">
+<id>WORDCAP</id>
+<name>WordCap</name>
+<description>
+Capitalizes the first letter of all the words in a string
+</description>
+<syntax>string WordCap(string)</syntax>
+</function>
+</functions>

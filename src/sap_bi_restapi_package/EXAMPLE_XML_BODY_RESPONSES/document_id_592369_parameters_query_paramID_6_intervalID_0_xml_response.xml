@@ -1,0 +1,408 @@
+<parameters>
+<parameter dpId="DP3" type="prompt" optional="false">
+<id>0</id>
+<technicalName>
+Enter Start Date (MM/DD/YYYY). Scheduled payments on or after this date will be selected:
+</technicalName>
+<name>
+Enter Start Date (MM/DD/YYYY). Scheduled payments on or after this date will be selected:
+</name>
+<answer type="DateTime" constrained="false">
+<info cardinality="Single">
+<values>
+<value>1899-12-31T13:30:00.000-10:30</value>
+</values>
+</info>
+<values>
+<value>1899-12-31T13:30:00.000-10:30</value>
+</values>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="false">
+<id>1</id>
+<technicalName>
+Enter End Date (MM/DD/YYYY). Scheduled payments on or before this date will be selected:
+</technicalName>
+<name>
+Enter End Date (MM/DD/YYYY). Scheduled payments on or before this date will be selected:
+</name>
+<answer type="DateTime" constrained="false">
+<info cardinality="Single">
+<values>
+<value>9999-12-30T14:00:00.000-10:00</value>
+</values>
+</info>
+<values>
+<value>9999-12-30T14:00:00.000-10:00</value>
+</values>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="false">
+<id>2</id>
+<technicalName>As of Date:</technicalName>
+<name>As of Date:</name>
+<answer type="DateTime" constrained="false">
+<info cardinality="Single"/>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="true">
+<id>3</id>
+<technicalName>Select Bond Statuses:</technicalName>
+<name>Select Bond Statuses:</name>
+<answer type="Numeric" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DOa</id>
+<cvalues>
+<cvalue>
+<column id="0">1</column>
+<column id="1">In Progress</column>
+</cvalue>
+<cvalue>
+<column id="0">2</column>
+<column id="1">Paid at Maturity</column>
+</cvalue>
+<cvalue>
+<column id="0">5</column>
+<column id="1">Refunded</column>
+</cvalue>
+<cvalue>
+<column id="0">100</column>
+<column id="1">Rolled</column>
+</cvalue>
+</cvalues>
+<columns mappingId="0">
+<column type="Numeric" id="0">Bnd Sta Cd </column>
+<column type="String" id="1">Bond Status Nm </column>
+</columns>
+</lov>
+</info>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="true">
+<id>4</id>
+<technicalName>Select series:</technicalName>
+<name>Select series:</name>
+<answer type="Text" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DO4</id>
+<intervals>
+<interval id="0">
+<value>GOB2017E</value>
+<value>SRF-C150070-45</value>
+</interval>
+<interval id="1">
+<value>SRF-C150046-60</value>
+<value>SRF-C150051-70</value>
+</interval>
+<interval id="2">
+<value>SRF-C150051-64</value>
+<value>SRF-C150046-55</value>
+</interval>
+</intervals>
+<values>
+<value>GOB2017E</value>
+<value>GOB2017C</value>
+<value>WW2016BSR</value>
+<value>WW2016CSR</value>
+<value>WW2015BSR</value>
+<value>WW2015CSR</value>
+<value>WW2012BSR</value>
+<value>GOB2012A</value>
+<value>GOB2011A</value>
+<value>GOB2009F</value>
+<value>GOB2007B</value>
+<value>GOB2007A</value>
+<value>GOB1993C</value>
+<value>GOB2017H</value>
+<value>GOB2010A</value>
+<value>SRF-C150048-00</value>
+<value>SRF-C150071-10</value>
+<value>SRF-C150070-29</value>
+<value>GOB2019B</value>
+<value>WW2018AJR</value>
+<value>GOB2017F</value>
+<value>WW1998JR</value>
+<value>GOB2016D</value>
+<value>GOB2016A</value>
+<value>GOB2016C</value>
+<value>GOB2012C</value>
+<value>GOB2010B</value>
+<value>SRF-C150070-36</value>
+<value>GOB2018D</value>
+<value>GOB2018B</value>
+<value>GOB2019A</value>
+<value>WW2015BJR</value>
+<value>GOB2015A</value>
+<value>GOB2009B</value>
+<value>BWS2014B</value>
+<value>BWS2012A</value>
+<value>WW2009CSR</value>
+<value>SRF-C150070-13</value>
+<value>T-B1-2015</value>
+<value>GOB2018C</value>
+<value>WW2017ASR</value>
+<value>WW2016AJR</value>
+<value>WW2009AJR</value>
+<value>GOB2012B</value>
+<value>GOB2012G</value>
+<value>GOB2011B</value>
+<value>TECPB2R-2015-REV</value>
+<value>SRF-NPS00C0-02</value>
+<value>SRF-C150070-33</value>
+<value>SRF-C150070-45</value>
+</values>
+<columns mappingId="0">
+<column type="String" id="0">Series </column>
+</columns>
+</lov>
+</info>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="true">
+<id>5</id>
+<technicalName>Select debt types:</technicalName>
+<name>Select debt types:</name>
+<answer type="Text" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DO2</id>
+<cvalues>
+<cvalue>
+<column id="0">GOB</column>
+<column id="1">General Obligation Bond</column>
+</cvalue>
+<cvalue>
+<column id="0">WWREV</column>
+<column id="1">Waste Water Revenue Coupon Bond</column>
+</cvalue>
+<cvalue>
+<column id="0">TECPR</column>
+<column id="1">Tax Exempt Commercial Paper Roll</column>
+</cvalue>
+<cvalue>
+<column id="0">SRF</column>
+<column id="1">State Revolving Fund Loan</column>
+</cvalue>
+<cvalue>
+<column id="0">TECP</column>
+<column id="1">Tax Exempt Commercial Paper</column>
+</cvalue>
+<cvalue>
+<column id="0">BWSREV</column>
+<column id="1">Board of Water Supply Revenue Bond</column>
+</cvalue>
+</cvalues>
+<columns mappingId="0">
+<column type="String" id="0">Debt Typ Cd </column>
+<column type="String" id="1">Debt Type Nm </column>
+</columns>
+</lov>
+</info>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="true">
+<id>6</id>
+<technicalName>Select CUSIP numbers:</technicalName>
+<name>Select CUSIP numbers:</name>
+<answer type="Text" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DO6</id>
+<intervals>
+<interval id="0">
+<value>438687DY8</value>
+<value>438701NL4</value>
+</interval>
+<interval id="1">
+<value>438701NU4</value>
+<value>438689JG7</value>
+</interval>
+<interval id="2">
+<value>438689JE2</value>
+<value>438701WZ3</value>
+</interval>
+<interval id="3">
+<value>438701H49</value>
+<value>438689GZ8</value>
+</interval>
+<interval id="4">
+<value>438689HG9</value>
+<value>438701YA6</value>
+</interval>
+<interval id="5">
+<value>438701YZ1</value>
+<value>43867WAF8</value>
+</interval>
+<interval id="6">
+<value>43867XAG4</value>
+<value>438701WT7</value>
+</interval>
+<interval id="7">
+<value>438701WR1</value>
+<value>438670ZM6</value>
+</interval>
+<interval id="8">
+<value>438670XN6</value>
+<value>438687CB9</value>
+</interval>
+<interval id="9">
+<value>438687DD4</value>
+<value>4386703W9</value>
+</interval>
+<interval id="10">
+<value>4386704B4</value>
+<value>43867WAS0</value>
+</interval>
+<interval id="11">
+<value>438670WQ0</value>
+<value>438701XZ2</value>
+</interval>
+<interval id="12">
+<value>438701YM0</value>
+<value>438670QQ7</value>
+</interval>
+<interval id="13">
+<value>438670QN4</value>
+<value>438687BZ7</value>
+</interval>
+<interval id="14">
+<value>438687BL8</value>
+<value>438670M57</value>
+</interval>
+<interval id="15">
+<value>438670ZA2</value>
+<value>438687BG9</value>
+</interval>
+<interval id="16">
+<value>438687BP9</value>
+<value>438670W98</value>
+</interval>
+<interval id="17">
+<value>438670X48</value>
+<value>SRF-C150046-55</value>
+</interval>
+</intervals>
+<values>
+<value>438687DY8</value>
+<value>438687DX0</value>
+<value>438687HM0</value>
+<value>438687GC3</value>
+<value>438687GA7</value>
+<value>438687HH1</value>
+<value>438687GQ2</value>
+<value>438687HF5</value>
+<value>438687GL3</value>
+<value>438687GV1</value>
+<value>438701Q98</value>
+<value>438701Q72</value>
+<value>438701N34</value>
+<value>438687EZ4</value>
+<value>438687EW1</value>
+<value>438687CE3</value>
+<value>438701P24</value>
+<value>438701M27</value>
+<value>438687CG8</value>
+<value>438687DJ1</value>
+<value>438687CF0</value>
+<value>438687CV5</value>
+<value>438687CU7</value>
+<value>438687CQ6</value>
+<value>438687BN4</value>
+<value>438687BT1</value>
+<value>438687AV7</value>
+<value>438687AA3</value>
+<value>438687AH8</value>
+<value>438701K78</value>
+<value>438701E75</value>
+<value>438701L28</value>
+<value>438701K86</value>
+<value>438701F82</value>
+<value>438701XJ8</value>
+<value>438701XF6</value>
+<value>438701ZL1</value>
+<value>438701ZK3</value>
+<value>438701XS8</value>
+<value>438701YE8</value>
+<value>438701YY4</value>
+<value>438701TT1</value>
+<value>438701B86</value>
+<value>438701YS7</value>
+<value>438701SQ8</value>
+<value>438701TM6</value>
+<value>438701TL8</value>
+<value>438701TJ3</value>
+<value>438701PE8</value>
+<value>438701NL4</value>
+</values>
+<columns mappingId="0">
+<column type="String" id="0">Cusip </column>
+</columns>
+</lov>
+</info>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="true">
+<id>7</id>
+<technicalName>Select Major Type(s) of Debt:</technicalName>
+<name>Select Major Type(s) of Debt:</name>
+<answer type="Numeric" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DO1</id>
+<cvalues>
+<cvalue>
+<column id="0">1</column>
+<column id="1">Bond</column>
+</cvalue>
+<cvalue>
+<column id="0">3</column>
+<column id="1">Loan</column>
+</cvalue>
+</cvalues>
+<columns mappingId="0">
+<column type="Numeric" id="0">Mjr Typ Debt </column>
+<column type="String" id="1">Major Type of Debt Desc </column>
+</columns>
+</lov>
+</info>
+</answer>
+</parameter>
+<parameter dpId="DP3" type="prompt" optional="false">
+<id>8</id>
+<technicalName>Select Debt Instrument Status:</technicalName>
+<name>Select Debt Instrument Status:</name>
+<answer type="Text" constrained="false">
+<info cardinality="Multiple">
+<lov refreshable="true" partial="false" hierarchical="false">
+<id>UNIVERSELOV_DS1.DO9</id>
+<values>
+<value>Loan Completed</value>
+<value>Active Loan</value>
+<value>Bond Completed </value>
+<value>Bond Manually Closed</value>
+<value>Active Bond</value>
+</values>
+<columns mappingId="0">
+<column type="String" id="0">Debt Status Nm </column>
+</columns>
+</lov>
+<values>
+<value id="0">Loan Completed</value>
+<value id="0">Active Loan</value>
+<value id="0">Bond Completed </value>
+<value id="0">Bond Manually Closed</value>
+<value id="0">Active Bond</value>
+</values>
+</info>
+<values>
+<value id="0">Loan Completed</value>
+<value id="0">Active Loan</value>
+<value id="0">Bond Completed </value>
+<value id="0">Bond Manually Closed</value>
+<value id="0">Active Bond</value>
+</values>
+</answer>
+</parameter>
+</parameters>

@@ -1,0 +1,11 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+<id>
+tag:sap.com,2010:bip-rs/ASHnC0S_Pw5LhKFbZ.iA_j4/children
+</id>
+<title type="text">Children of Root Folder</title>
+<updated>2019-10-17T01:06:34.058Z</updated>
+<link href="http://erpwtinf01:6405/biprws/infostore/Root%20Folder/children?page=2&pageSize=50" rel="self"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/Root%20Folder/children?page=1&pageSize=50" rel="first"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/Root%20Folder/children?page=1&pageSize=50" rel="previous"/>
+<link href="http://erpwtinf01:6405/biprws/infostore/Root%20Folder/children?page=1&pageSize=50" rel="last"/>
+</feed>

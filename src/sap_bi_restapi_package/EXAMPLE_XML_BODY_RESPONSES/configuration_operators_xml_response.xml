@@ -1,0 +1,386 @@
+<operators>
+<operator>
+<id>LINEAR</id>
+<name>Linear</name>
+<description>
+Tells the Interpolation function to use linear regression to supply missing measure values
+</description>
+<syntax>Linear</syntax>
+</operator>
+<operator>
+<id>SELF_AFTER</id>
+<name>Self_After</name>
+<description>
+Tells the Descendants function to return the descendants below a given level and to include the current member
+</description>
+<syntax>Self_After</syntax>
+</operator>
+<operator>
+<id>SELF</id>
+<name>Self</name>
+<description>
+Refers the Previous function to the previous cell when it does not contain a report object
+</description>
+<syntax>Self</syntax>
+</operator>
+<operator>
+<id>BEFORE</id>
+<name>Before</name>
+<description>
+Tells the Descendants function to return the descendants above a specified level
+</description>
+<syntax>Before</syntax>
+</operator>
+<operator>
+<id>ALL</id>
+<name>All</name>
+<description>
+Ignores all filters (NoFilter function) or counts all values (Count function)
+</description>
+<syntax>All</syntax>
+</operator>
+<operator>
+<id>AFTER</id>
+<name>After</name>
+<description>
+Tells the Descendants function to return the descendants below a specified level
+</description>
+<syntax>After</syntax>
+</operator>
+<operator>
+<id>WHERE</id>
+<name>Where</name>
+<description>Restricts the data used to calculate a measure</description>
+<syntax>restricted_data Where (restricting_condition)</syntax>
+</operator>
+<operator>
+<id>DISTINCT</id>
+<name>Distinct</name>
+<description>
+Tells the Count function to count distinct values only
+</description>
+<syntax>Distinct</syntax>
+</operator>
+<operator>
+<id>BETWEEN</id>
+<name>Between</name>
+<description>Determines whether a value is between two values</description>
+<syntax>Between(first_value;second_value)</syntax>
+</operator>
+<operator>
+<id>TOP</id>
+<name>Top</name>
+<description>
+Tells the Rank function to rank in descending order
+</description>
+<syntax>Top</syntax>
+</operator>
+<operator>
+<id>BODY</id>
+<name>Body</name>
+<description>References data in a report, section or block</description>
+<syntax>Body</syntax>
+</operator>
+<operator>
+<id>BEFORE_AFTER</id>
+<name>Before_After</name>
+<description>
+Tells the Descendants function to include all descendants except those at a given level
+</description>
+<syntax>Before_After</syntax>
+</operator>
+<operator>
+<id>MULTIPLICATION</id>
+<name>*</name>
+<description>Multiplication operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>FOREACH</id>
+<name>ForEach</name>
+<description>Adds dimensions to the calculation context</description>
+<syntax>ForEach (added_calculation_dims)</syntax>
+</operator>
+<operator>
+<id>LEAVES</id>
+<name>Leaves</name>
+<description>
+Tells the Descendants function to return all leaf descendants above a specified level
+</description>
+<syntax>Leaves</syntax>
+</operator>
+<operator>
+<id>ADDITION</id>
+<name>+</name>
+<description>Addition operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>PARENTHESIS_OPEN</id>
+<name>(</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>PARENTHESIS_CLOSE</id>
+<name>)</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>QUARTERPERIOD</id>
+<name>QuarterPeriod</name>
+<description>Time period in quarters.</description>
+<syntax>QuarterPeriod</syntax>
+</operator>
+<operator>
+<id>DOT</id>
+<name>.</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>DIVISION</id>
+<name>/</name>
+<description>Division operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>FORALL</id>
+<name>ForAll</name>
+<description>Removes dimensions from the calculation context</description>
+<syntax>ForAl l(removed_calculation_dims)</syntax>
+</operator>
+<operator>
+<id>MINUS</id>
+<name>-</name>
+<description>Minus operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>BOTTOM</id>
+<name>Bottom</name>
+<description>Tells the Rank function to rank in ascending order</description>
+<syntax>Bottom</syntax>
+</operator>
+<operator>
+<id>DAYPERIOD</id>
+<name>DayPeriod</name>
+<description>Time period in days.</description>
+<syntax>DayPeriod</syntax>
+</operator>
+<operator>
+<id>INDEX</id>
+<name>Index</name>
+<description>
+Returns the database primary key of a prompt response
+</description>
+<syntax>Index</syntax>
+</operator>
+<operator>
+<id>OR</id>
+<name>Or</name>
+<description>Links boolean values</description>
+<syntax>bool_value Or bool_value [Or bool_value...]</syntax>
+</operator>
+<operator>
+<id>ROW</id>
+<name>Row</name>
+<description>
+Calculates running aggregates and percentages by row
+</description>
+<syntax>Row</syntax>
+</operator>
+<operator>
+<id>SEMICOLON</id>
+<name>;</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>COLON</id>
+<name>:</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>GREATER_THAN</id>
+<name>></name>
+<description>Greater Than operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>AND</id>
+<name>And</name>
+<description>Links boolean values</description>
+<syntax>bool_value And bool_value [And bool_value...]</syntax>
+</operator>
+<operator>
+<id>EQUAL</id>
+<name>=</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>LESS_THAN</id>
+<name><</name>
+<description>Less Than operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>YEARPERIOD</id>
+<name>YearPeriod</name>
+<description>Time period in years.</description>
+<syntax>YearPeriod</syntax>
+</operator>
+<operator>
+<id>IN</id>
+<name>In</name>
+<description>
+Specifies the dimensions in the calculation context
+</description>
+<syntax>In (calculation_dims)</syntax>
+</operator>
+<operator>
+<id>NO_NULL</id>
+<name>NoNull</name>
+<description>Tells the Previous function to ignore null values</description>
+<syntax>NoNull</syntax>
+</operator>
+<operator>
+<id>REPORT</id>
+<name>Report</name>
+<description>References all the data in a report</description>
+<syntax>Report</syntax>
+</operator>
+<operator>
+<id>WEEKPERIOD</id>
+<name>WeekPeriod</name>
+<description>Time period in weeks.</description>
+<syntax>WeekPeriod</syntax>
+</operator>
+<operator>
+<id>GREATER_THAN_OR_EQUAL</id>
+<name>>=</name>
+<description>Greater Than Or Equal To operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>MONTHPERIOD</id>
+<name>MonthPeriod</name>
+<description>Time period in months.</description>
+<syntax>MonthPeriod</syntax>
+</operator>
+<operator>
+<id>INCLUDEEMPTY</id>
+<name>IncludeEmpty</name>
+<description>
+Tells some aggregate functions to include empty values in calculations
+</description>
+<syntax>IncludeEmpty</syntax>
+</operator>
+<operator>
+<id>BLOCK</id>
+<name>Block</name>
+<description>References the data in a block</description>
+<syntax>Block</syntax>
+</operator>
+<operator>
+<id>INLIST</id>
+<name>InList</name>
+<description>Determines if a value is in a list</description>
+<syntax>bool test_value Inlist(value_list)</syntax>
+</operator>
+<operator>
+<id>DRILL</id>
+<name>Drill</name>
+<description>
+Tells the NoFilter function to ignore drill filters
+</description>
+<syntax>Drill</syntax>
+</operator>
+<operator>
+<id>BREAK</id>
+<name>Break</name>
+<description>
+Accounts for table breaks (Percentage) or references break data (extended syntax)
+</description>
+<syntax>Break</syntax>
+</operator>
+<operator>
+<id>SELF_BEFORE</id>
+<name>Self_Before</name>
+<description>
+Tells the Descendants function to return the descendants below a given level and to include the current member
+</description>
+<syntax>Self_Before</syntax>
+</operator>
+<operator>
+<id>NOT_ON_BREAK</id>
+<name>NotOnBreak</name>
+<description>
+Tells the Interpolation function to ignore section and block breaks
+</description>
+<syntax>NotOnBreak</syntax>
+</operator>
+<operator>
+<id>NOT</id>
+<name>Not</name>
+<description>Returns the opposite of a boolean value</description>
+<syntax>bool Not (bool_value)</syntax>
+</operator>
+<operator>
+<id>SECTION</id>
+<name>Section</name>
+<description>References the data in a section</description>
+<syntax>Section</syntax>
+</operator>
+<operator>
+<id>POINT_TO_POINT</id>
+<name>PointToPoint</name>
+<description>
+Tells the Interpolation function to use point-to-point interpolation to supply missing measure values
+</description>
+<syntax>PointToPoint</syntax>
+</operator>
+<operator>
+<id>NOT_EQUAL</id>
+<name><></name>
+<description>Not Equal To operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>COL</id>
+<name>Col</name>
+<description>
+Calculates running aggregates and percentages by column
+</description>
+<syntax>Col</syntax>
+</operator>
+<operator>
+<id>LESS_THAN_OR_EQUAL</id>
+<name><=</name>
+<description>Less Than Or Equal To operator.</description>
+<syntax/>
+</operator>
+<operator>
+<id>SELF_BEFORE_AFTER</id>
+<name>Self_Before_After</name>
+<description>
+Tells the Descendants function to include all descendants and the current member
+</description>
+<syntax>Self_Before_After</syntax>
+</operator>
+<operator>
+<id>CURLY_BRACKET_CLOSE</id>
+<name>}</name>
+<description/>
+<syntax/>
+</operator>
+<operator>
+<id>CURLY_BRACKET_OPEN</id>
+<name>{</name>
+<description/>
+<syntax/>
+</operator>
+</operators>
